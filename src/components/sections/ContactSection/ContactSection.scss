@@ -1,0 +1,35 @@
+@import '../../../styles/variables';
+.contact-section {
+  overflow: hidden;
+  input {
+    font-family: $font-family;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .grid-element {
+    pointer-events: none;
+    z-index: 0;
+    position: absolute;
+    top: -60px;
+    left: -40px;
+    @media (min-width: 768px) {
+      top: 38px;
+      left: -140px;
+    }
+  }
+  .star-element {
+    pointer-events: none;
+    z-index: 0;
+    position: absolute;
+    bottom: -10px;
+    right: -110px;
+    @media (min-width: 768px) {
+      bottom: -10px;
+      right: -70px;
+    }
+  }
+}

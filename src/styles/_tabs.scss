@@ -1,0 +1,109 @@
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+
+  header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    // border-bottom: 2px solid rgba($purple, 0.1);
+    box-shadow: inset 0px -2px 1px rgba($purple, 0.1);
+
+    // ::before {
+    //   z-index: 1;
+    //   content: '';
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: 2px;
+    //   background: #edeffa;
+    //   opacity: 0.1;
+    // }
+    nav {
+      display: flex;
+      &.centered {
+        justify-content: center;
+      }
+      button {
+        scroll-snap-align: start;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(#00000a, 0.5);
+        font-weight: 600;
+        text-decoration: none;
+        padding: 16px 9.6px;
+
+        &.full-width {
+          margin: auto;
+        }
+        &.active {
+          color: $purple;
+        }
+      }
+    }
+    .indicator-container {
+      width: 100%;
+      position: relative;
+      z-index: 2;
+      // top: -2px;
+      // overflow: hidden;
+      height: 2px;
+      // background: rgba($purple, 0.1);
+      .indicator {
+        transition: 0.2s all;
+        content: '    ';
+        position: absolute;
+        left: 0px;
+        border-radius: 2px;
+        height: 2px;
+        width: 0%;
+        background: $purple;
+        &.disabled {
+          opacity: 0;
+          transition: none;
+        }
+      }
+    }
+  }
+  .tab-contents {
+    margin-top: 8px;
+    display: grid;
+    width: 100%;
+
+    .content-container {
+      transition: 0.1s all;
+      pointer-events: none;
+      opacity: 1;
+      grid-row: 1;
+      grid-column: 1;
+      display: none;
+      &.active {
+        display: block;
+        animation: active-animation 0.5s forwards;
+        pointer-events: all;
+      }
+      @keyframes active-animation {
+        0% {
+          opacity: 0;
+        }
+        95% {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .scroll-snap-x {
+    overflow-x: auto;
+    overflow-y: hidden;
+    overflow: auto hidden;
+    overscroll-behavior-x: contain;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+  }
+}

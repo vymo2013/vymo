@@ -1,0 +1,42 @@
+.get-started-section {
+  .link-card-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    flex-wrap: wrap;
+    @media (min-width: 768px) {
+      padding-top: 80px;
+      padding-bottom: 80px;
+      border-bottom: 1px solid rgba(white, 0.2);
+    }
+    .link-col {
+      width: 100%;
+      padding: 8px 0px;
+      @media (min-width: 768px) {
+        padding: 16px;
+        width: 33.33%;
+        &:first-child {
+          padding-left: 0px;
+        }
+        &:last-child {
+          padding-right: 0px;
+        }
+      }
+    }
+    .link-card {
+      background: #2c233d;
+      border-radius: 16px;
+      height: 100%;
+      img {
+        transition: 300ms all;
+        transform: rotate(30deg);
+      }
+      &:hover {
+        background-color: #382d4e;
+        img {
+          transform: rotate(0deg);
+          transition: 0.256 all;
+        }
+      }
+    }
+  }
+}

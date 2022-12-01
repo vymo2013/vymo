@@ -1,0 +1,60 @@
+@import 'variables';
+.main-press {
+  .hero-section {
+    .download-btn {
+      padding: 16px 37px;
+    }
+    .circle {
+      user-select: none;
+      pointer-events: none;
+      position: absolute;
+      border: 1px solid rgba(#d9d9d9, 0.2);
+      width: 100%;
+      border-radius: 50%;
+      &-1 {
+        width: 1422px;
+        height: 1422px;
+        left: calc(50% - 711px);
+      }
+      &-2 {
+        width: 1206px;
+        height: 1206px;
+        left: calc(50% - 603px);
+      }
+      &-3 {
+        width: 994px;
+        height: 994px;
+        left: calc(50% - 497px);
+      }
+    }
+    .dot {
+      position: absolute;
+      border-radius: 50%;
+      background: #3a304e;
+      &-l {
+        width: 18px;
+        height: 18px;
+      }
+      &-s {
+        width: 12px;
+        height: 12px;
+      }
+      &-1 {
+        top: 700px;
+        left: 0px;
+      }
+      &-2 {
+        top: 590px;
+        right: -6px;
+      }
+      &-3 {
+        top: 400px;
+        right: -2px;
+      }
+      &-4 {
+        top: 300px;
+        left: 30px;
+      }
+    }
+  }
+}

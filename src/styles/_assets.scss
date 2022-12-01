@@ -1,0 +1,6 @@
+.dropdowncaret {
+  transition: 0.32s ease-out;
+  &.open {
+    transform: rotate(180deg);
+  }
+}

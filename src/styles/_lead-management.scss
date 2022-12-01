@@ -1,0 +1,198 @@
+.main-lead-management {
+  .hero-section {
+    .heading {
+      text-align: center;
+    }
+    @media (min-width: 1280px) {
+      .heading {
+        text-align: left;
+      }
+    }
+  }
+  .challenge-section {
+    .heading {
+      text-align: center;
+    }
+
+    .tabs-col {
+      .tabs-container {
+        .indicator-container {
+          width: 414px;
+          @media (min-width: 500px) {
+            width: 100%;
+          }
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .tabs-container {
+          flex-direction: column-reverse;
+          header {
+            flex-direction: column-reverse;
+            // border-top: 2px solid rgba(80, 94, 206, 0.1);
+            box-shadow: inset 0px 2px 1px rgba($purple, 0.1);
+            // ::after {
+            //   content: '';
+            //   position: absolute;
+            //   top: 0;
+            //   left: 0;
+            //   width: 100%;
+            //   background: #edeffa;
+            //   height: 2px;
+            // }
+            border-bottom: 1px solid rgba(80, 94, 206, 0);
+            .indicator-container {
+              top: 0;
+            }
+          }
+        }
+      }
+    }
+
+    @media (min-width: 767px) {
+      .heading {
+        text-align: left;
+      }
+    }
+  }
+  .magic-section {
+    .magic-card {
+      background: #f4f6f8;
+      overflow: hidden;
+      border-radius: 21px;
+      // margin: 16px;
+      height: calc(100% - 16px);
+      padding: 56px 40px 0px 40px;
+      h4 {
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 700;
+        letter-spacing: -1px;
+      }
+      p {
+        @apply mt-1 mb-3 md:mb-[40px];
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #3a405a;
+        opacity: 0.6;
+      }
+      @media (min-width: 990px) {
+        border-radius: 32px;
+        h4 {
+          font-size: 32px;
+          line-height: 42px;
+        }
+      }
+      .inflow-img {
+        margin-bottom: -16px;
+      }
+      .allocation-img {
+        max-width: 109%;
+      }
+      &.full {
+        display: flex;
+        flex-direction: column;
+        img {
+          margin-top: 24px;
+          padding-bottom: 24px;
+          padding-left: 0px;
+        }
+        @media (min-width: 990px) {
+          flex-direction: row;
+          img {
+            margin-top: 0px;
+            padding-left: 30px;
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+  .allocation-section {
+    .tablet {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 16px 16px 48px 16px;
+      margin: 16px;
+      background: #ffffff;
+      box-shadow: 0px 11px 60px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      width: calc(50% - 32px);
+      img {
+        display: inline-block;
+        margin-right: 24px;
+      }
+      span {
+        color: #00000a;
+        display: inline-block;
+        font-family: $font-heading;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 16px;
+      }
+      &:last-child {
+        width: 100%;
+      }
+      @media (min-width: 768px) {
+        width: auto;
+        flex-direction: row;
+        align-items: center;
+        border: 1px solid #eff4f9;
+        padding: 28px 48px 30px 32px;
+        margin: 12px;
+        box-shadow: 0px 11px 60px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+        span {
+          margin-top: 0px;
+          font-size: 22px;
+        }
+        &:last-child {
+          width: auto;
+        }
+      }
+    }
+  }
+  .little-more-section {
+    p {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 42px;
+      margin-top: 40px;
+      letter-spacing: -1px;
+    }
+
+    img {
+      user-select: none;
+      width: 100%;
+    }
+
+    .curve {
+      visibility: hidden;
+    }
+    @media (min-width: 1024px) {
+      img {
+        width: auto;
+      }
+      p {
+        margin-top: 70px;
+      }
+      .bottom-row {
+        margin-top: 115px;
+      }
+      .curve {
+        visibility: visible;
+        left: -90px;
+        bottom: -143px;
+      }
+    }
+    @media (min-width: 1170px) {
+      .curve {
+        left: -170px;
+        bottom: -143px;
+      }
+    }
+  }
+}

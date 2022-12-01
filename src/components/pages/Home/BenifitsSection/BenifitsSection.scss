@@ -1,0 +1,41 @@
+@import '../../../../styles/variables';
+.benifits-section {
+  background: $dark-purple;
+  .benifit-card {
+    h3 {
+      line-height: 60px;
+    }
+  }
+}
+
+.benifits-section {
+  .client-benifit-slider {
+    .item {
+      img {
+        display: inline-block;
+      }
+    }
+  }
+
+  /*
+    carousel nav button default style
+  */
+  .tns-controls {
+    display: none;
+  }
+  .tns-nav {
+    text-align: center;
+    button {
+      height: 8px !important;
+      width: 8px !important;
+      margin: 0 5px;
+      border-radius: 50%;
+      background: #d9d9d9 !important;
+      opacity: 0.2 !important;
+    }
+    .tns-nav-active {
+      background: #d9d9d9 !important;
+      opacity: 1 !important;
+    }
+  }
+}

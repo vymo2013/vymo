@@ -1,0 +1,84 @@
+.btn {
+  @apply text-14 md:text-16 p-1 md:py-[10px] md:px-[25px] rounded;
+  &.btn-chv {
+    @apply px-[12px] md:px-[25px];
+  }
+  &.btn-primary-link {
+    @apply p-0 mb-1;
+  }
+  &.btn-large {
+    padding: 16px 49px;
+    @media (min-width: 768px) {
+      padding: 16px 60px;
+    }
+  }
+  &.btn-responsive-large {
+    padding: 10px 40px;
+    @media (min-width: 768px) {
+      padding: 16px 60px;
+    }
+  }
+  &:hover {
+    svg {
+      @apply translate-x-[2px] md:translate-x-[4px];
+    }
+  }
+}
+.btn-primary-link {
+  @apply text-purple bg-none border border-transparent;
+  path {
+    @apply fill-purple;
+  }
+  &:hover {
+    path {
+      @apply fill-purple;
+    }
+  }
+}
+.btn-primary {
+  @apply text-white bg-purple border border-purple;
+  &:hover {
+    background: #6370d0;
+    border-color: #6370d0;
+  }
+}
+.btn-primary-outline {
+  @apply text-purple border border-purple bg-none;
+  path {
+    @apply fill-purple;
+  }
+  &:hover {
+    @apply bg-purple;
+    color: #ffffff;
+    path {
+      fill: #ffffff;
+    }
+  }
+}
+.btn-primary-red {
+  @apply text-white bg-primaryRed border border-primaryRed;
+  &:hover {
+    background: #ff7479;
+    border-color: #ff7479;
+  }
+}
+.btn-secondary-white {
+  @apply text-white border border-white bg-none;
+  &:hover {
+    background: white;
+    color: black;
+    path {
+      fill: black;
+    }
+  }
+}
+.btn-secondary {
+  @apply text-black border border-black bg-none;
+  &:hover {
+    background: black;
+    color: white;
+    path {
+      fill: white;
+    }
+  }
+}

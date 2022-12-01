@@ -1,0 +1,47 @@
+@import '../../styles/variables';
+.news-main {
+  .heading {
+    text-align: center;
+    @media (min-width: 768px) {
+      text-align: left;
+      margin-left: 25%;
+    }
+    @media (min-width: 1120px) {
+      margin-left: 16.5%;
+    }
+  }
+  .years {
+    width: 100%;
+    @media (min-width: 768px) {
+      width: calc(25% - 30px);
+      margin-right: 30px;
+    }
+    @media (min-width: 1120px) {
+      width: calc(16.5% - 60px);
+      margin-right: 60px;
+    }
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    li {
+      button {
+        color: #989898;
+        padding: 8px 16px;
+        background: none;
+        @media (min-width: 768px) {
+          padding: 10px 32px;
+        }
+      }
+      &.active {
+        button {
+          color: $purple;
+          border-bottom: 1px solid $purple;
+          @media (min-width: 768px) {
+            border-bottom: none;
+            background: rgba(80, 94, 206, 0.2);
+          }
+        }
+      }
+    }
+  }
+}

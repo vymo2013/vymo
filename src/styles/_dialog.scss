@@ -1,0 +1,42 @@
+@import 'variables';
+.dialog-container {
+  @apply p-3 rounded-2xl bg-white flex;
+  filter: drop-shadow(0px 11px 24px rgba(0, 0, 0, 0.05));
+  .img-container {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+  }
+  .text-container {
+    flex: 1;
+    margin-left: 9px;
+    font-size: 12px;
+    p {
+      margin: 0;
+    }
+    b {
+      font-weight: 700;
+    }
+    .minutes {
+      font-family: $font-heading;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 10px;
+      letter-spacing: -0.5px;
+      color: #000000;
+      opacity: 0.4;
+      margin-top: 9px;
+    }
+    .progress {
+      @apply h-1 rounded inline-block;
+      &.complete {
+        margin-right: 2px;
+        background: #42af8f;
+      }
+      &.unfinished {
+        background: #ff5a5f;
+      }
+    }
+  }
+}

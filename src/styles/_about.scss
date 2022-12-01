@@ -1,0 +1,202 @@
+@import 'variables';
+.about-crm-section {
+  background: white;
+  .timeline-round {
+    @apply absolute rounded-full;
+  }
+  .left-full-crm {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    height: 60px;
+    .left-box,
+    .right-box {
+      content: '';
+      z-index: 0;
+      height: 20px;
+      position: absolute;
+      top: 20px;
+      width: 50%;
+    }
+    .left-box {
+      border-top: 2px solid #2c233d;
+      border-right: 2px solid #2c233d;
+    }
+    .right-box {
+      border-bottom: 2px solid #2c233d;
+      right: 0;
+    }
+    .timeline-round {
+      position: absolute;
+      left: 15px;
+      top: -10px;
+      width: 60px;
+      height: 60px;
+      outline: 1px solid #ffc75a;
+      border: 5px solid #f7f5f1;
+    }
+    .parry-round {
+      @apply absolute rounded-full flex justify-center items-center;
+      width: 40px;
+      height: 40px;
+      bottom: 0px;
+      right: 20%;
+    }
+    .right-full-box {
+      background: #f7f5f1;
+      position: absolute;
+      right: 0;
+      width: 60%;
+      top: -38px;
+      height: 78px;
+      overflow: hidden;
+      &::after {
+        position: absolute;
+        content: '';
+        right: -60px;
+        top: 22px;
+        width: 120px;
+        height: 120px;
+        background: #ff8b7c;
+        border-radius: 50%;
+      }
+    }
+  }
+  .left-crm-d {
+    width: calc(50% + 15px);
+    @media (min-width: 1024px) {
+      width: calc(94% + 15px);
+    }
+    .left-box,
+    .right-box {
+      content: '';
+      z-index: 0;
+      height: 20px;
+      position: absolute;
+      top: 50%;
+      width: 50%;
+    }
+    .left-box {
+      border-top: 2px solid #2c233d;
+      border-right: 2px solid #2c233d;
+    }
+    .right-box {
+      border-bottom: 2px solid #2c233d;
+      right: 0;
+    }
+    .timeline-round {
+      width: 123px;
+      height: 123px;
+      outline: 1px solid #ffc75a;
+      border: 12px solid #f7f5f1;
+    }
+  }
+  .right-crm-d {
+    top: 2px;
+    width: 50%;
+    @media (min-width: 1024px) {
+      width: 100%;
+    }
+    border-top: 2px solid black;
+    .red-round {
+      position: absolute;
+      right: 50px;
+      bottom: 0;
+    }
+    .parry-round {
+      @apply absolute rounded-full flex justify-center items-center;
+      width: 83px;
+      height: 83px;
+      top: -41px;
+      right: 120px;
+    }
+  }
+}
+
+.growing-section {
+  .growing-card {
+    @apply flex flex-col lg:flex-row justify-center items-center lg:items-end px-1 py-3 lg:py-[82px] lg:px-4;
+    h6 {
+      @apply text-[42px] leading-[100%] tracking-[-1px] lg:text-[48px] lg:leading-[48px] lg:tracking-[-3px] xl:text-[82px] xl:leading-[86px] xl:tracking-[-3px] mb-1 lg:mb-0 lg:mr-2;
+      font-weight: 700;
+      font-family: $font-heading;
+    }
+    span {
+      @apply text-[16px] leading-[100%] tracking-[-0.5px] lg:text-[24px] lg:leading-[16px] lg:tracking-[-1px] xl:text-[32px] xl:leading-[42px] xl:tracking-[-3px] lg:mb-[10px];
+      font-weight: 700;
+      font-family: $font-heading;
+    }
+    &.green-card {
+      background: #c7e3e4;
+      h6 {
+        color: #42af8f;
+      }
+    }
+    &.red-card {
+      background: #ffd5cf;
+      h6 {
+        color: #ff5a5f;
+      }
+    }
+    &.blue-card {
+      background: #e5e2f6;
+      h6 {
+        color: #505ece;
+      }
+    }
+  }
+}
+
+.about-leadership-section {
+  .leader-card {
+    padding: 16px;
+    width: 50%;
+    @media (min-width: 768px) {
+      width: 33.33%;
+      padding: 0px 16px 64px 16px;
+    }
+    @media (min-width: 1024px) {
+      width: 25%;
+    }
+  }
+}
+
+.about-location-section {
+  padding-top: 110px;
+  .location-1 {
+    margin-left: auto;
+    width: 80%;
+    height: auto;
+  }
+  .location-2 {
+    margin-top: 72px;
+    bottom: 0;
+    img {
+      height: auto;
+      width: 100%;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      top: -20px;
+      right: -20px;
+      border: 1px solid #ffc75a;
+      outline: 13px solid #307388;
+      width: 40px;
+      height: 40px;
+      background: #307388;
+      border-radius: 50%;
+    }
+  }
+}
+.about-investor-section {
+  .investor-container {
+    padding-right: 0px !important;
+  }
+  .logo-image {
+    margin: 0px !important;
+    height: 59px !important;
+  }
+  q {
+    quotes: none;
+  }
+}
