@@ -15,6 +15,12 @@ const Links = [
   },
   {
     key: 'nav-l-2',
+    path: '/product-overview',
+    text: 'Product',
+    multiple: false,
+  },
+  {
+    key: 'nav-l-3',
     path: '#!',
     text: 'Solutions',
     multiple: true,
@@ -45,12 +51,6 @@ const Links = [
         link: '#!',
       },
     ],
-  },
-  {
-    key: 'nav-l-3',
-    path: '/case-study',
-    text: 'Case Study',
-    multiple: false,
   },
   {
     key: 'nav-l-4',
