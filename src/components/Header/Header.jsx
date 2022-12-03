@@ -24,31 +24,31 @@ const Links = [
     path: '#!',
     text: 'Solutions',
     multiple: true,
-    subLinks: [
+    subMenu: [
       { 
         id: 1,
-        title: 'Lead Management',
-        link: '/lead-management',
+        text: 'Lead Management',
+        path: '/lead-management',
       },
       {
         id: 2,
-        title: 'Activity Management',
-        link: '#!',
+        text: 'Activity Management',
+        path: '#!',
       },
       {
         id: 3,
-        title: 'Partner Engagement',
-        link: '#!',
+        text: 'Partner Engagement',
+        path: '#!',
       },
       {
         id: 4,
-        title: 'Remote Engagement',
-        link: '#!',
+        text: 'Remote Engagement',
+        path: '#!',
       },
       {
         id: 5,
-        title: 'Sales Enablement',
-        link: '#!',
+        text: 'Sales Enablement',
+        path: '#!',
       },
     ],
   },
