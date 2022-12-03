@@ -18,33 +18,38 @@ const Links = [
     path: '#!',
     text: 'Solutions',
     multiple: true,
-    menuLinks: [
-      {
-        name: 'Lead Management',
+    subLinks: [
+      { 
+        id: 1,
+        title: 'Lead Management',
         link: '/lead-management',
       },
       {
-        name: 'Activity Management',
+        id: 2,
+        title: 'Activity Management',
         link: '#!',
       },
       {
-        name: 'Partner Engagement',
+        id: 3,
+        title: 'Partner Engagement',
         link: '#!',
       },
       {
-        name: 'Remote Engagement',
+        id: 4,
+        title: 'Remote Engagement',
         link: '#!',
       },
       {
-        name: 'Sales Enablement',
+        id: 5,
+        title: 'Sales Enablement',
         link: '#!',
       },
     ],
   },
   {
     key: 'nav-l-3',
-    path: '/product-overview',
-    text: 'Product Overview',
+    path: '/case-study',
+    text: 'Case Study',
     multiple: false,
   },
   {

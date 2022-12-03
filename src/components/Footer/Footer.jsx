@@ -13,7 +13,7 @@ const links = [
       {
         id: 1,
         title: 'Overview',
-        link: '#!',
+        link: '/product-overview',
       },
       {
         id: 2,
@@ -43,7 +43,7 @@ const links = [
       {
         id: 7,
         title: 'Privacy',
-        link: '#!',
+        link: '/privacy-policy',
       },
       {
         id: 8,
@@ -65,7 +65,7 @@ const links = [
       {
         id: 1,
         title: 'Lead Management',
-        link: '#!',
+        link: '/lead-management',
       },
       {
         id: 2,
@@ -97,7 +97,7 @@ const links = [
       {
         id: 1,
         title: 'About',
-        link: '#!',
+        link: '/about',
       },
       {
         id: 2,
@@ -112,7 +112,7 @@ const links = [
       {
         id: 4,
         title: 'Press',
-        link: '#!',
+        link: '/press',
       },
       {
         id: 5,
@@ -201,7 +201,7 @@ const links = [
       {
         id: 1,
         title: 'Case Studies',
-        link: '#!',
+        link: '/case-study',
       },
       {
         id: 2,
@@ -270,10 +270,10 @@ function Footer({ dark }) {
             <div className="opacity-60 md:ml-0">
               © Vymo {new Date().getFullYear()}
             </div>
-            <a href="#!" className="md:ml-4">
+            <a href="/privacy-policy" className="md:ml-4">
               Privacy
             </a>
-            <a href="#!" className="md:ml-4">
+            <a href="/terms-of-service" className="md:ml-4">
               Terms and Conditions
             </a>
           </div>
