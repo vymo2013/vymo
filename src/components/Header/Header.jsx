@@ -27,14 +27,14 @@ const Links = [
   },
   {
     key: 'nav-l-4',
-    path: '/',
-    text: 'Company',
+    path: '/resources',
+    text: 'Resources',
     multiple: false,
   },
   {
     key: 'nav-l-5',
-    path: '/',
-    text: 'Resources',
+    path: '/about',
+    text: 'About',
     multiple: false,
   },
 ];
