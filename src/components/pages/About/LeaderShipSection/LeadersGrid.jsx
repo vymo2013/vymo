@@ -36,7 +36,7 @@ const leaders = [
   {
     id: 5,
     name: 'Rajesh Sabhlok',
-    designation: 'President - Vymo Japan',
+    designation: 'MD – Asia Pacific & Japan',
     img: 'rajesh.png',
     width: '410px',
     height: '446px',

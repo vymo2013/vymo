@@ -24,25 +24,25 @@ const Links = [
     path: '#!',
     text: 'Solutions',
     multiple: true,
-    menuLinks: [
+    subMenu: [
       {
-        name: 'Lead Management',
+        text: 'Lead Management',
         path: '/lead-management',
       },
       {
-        name: 'Activity Management',
+        text: 'Activity Management',
         path: '#!',
       },
       {
-        name: 'Partner Engagement',
+        text: 'Partner Engagement',
         path: '#!',
       },
       {
-        name: 'Remote Engagement',
+        text: 'Remote Engagement',
         path: '#!',
       },
       {
-        name: 'Sales Enablement',
+        text: 'Sales Enablement',
         path: '#!',
       },
     ],
