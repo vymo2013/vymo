@@ -15,37 +15,37 @@ const Links = [
   },
   {
     key: 'nav-l-2',
-    path: '/',
-    text: 'Products',
-    multiple: true,
-  },
-  {
-    key: 'nav-l-3',
     path: '#!',
     text: 'Solutions',
     multiple: true,
-    subMenu: [
+    menuLinks: [
       {
-        text: 'Lead Management',
-        path: '/lead-management',
+        name: 'Lead Management',
+        link: '/lead-management',
       },
       {
-        text: 'Activity Management',
-        path: '#!',
+        name: 'Activity Management',
+        link: '#!',
       },
       {
-        text: 'Partner Engagement',
-        path: '#!',
+        name: 'Partner Engagement',
+        link: '#!',
       },
       {
-        text: 'Remote Engagement',
-        path: '#!',
+        name: 'Remote Engagement',
+        link: '#!',
       },
       {
-        text: 'Sales Enablement',
-        path: '#!',
+        name: 'Sales Enablement',
+        link: '#!',
       },
     ],
+  },
+  {
+    key: 'nav-l-3',
+    path: '/product-overview',
+    text: 'Product Overview',
+    multiple: false,
   },
   {
     key: 'nav-l-4',
