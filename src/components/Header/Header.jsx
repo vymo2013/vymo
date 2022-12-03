@@ -21,9 +21,36 @@ const Links = [
   },
   {
     key: 'nav-l-3',
-    path: '/',
+    path: '#!',
     text: 'Solutions',
     multiple: true,
+    submenu: [
+      {
+        id: 1,
+        text: 'Lead Management',
+        path: '#!',
+      },
+      {
+        id: 2,
+        text: 'Activity Management',
+        path: '#!',
+      },
+      {
+        id: 3,
+        text: 'Partner Engagement',
+        path: '#!',
+      },
+      {
+        id: 4,
+        text: 'Remote Engagement',
+        path: '#!',
+      },
+      {
+        id: 5,
+        text: 'Sales Enablement',
+        path: '#!',
+      },
+    ],
   },
   {
     key: 'nav-l-4',
