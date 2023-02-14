@@ -9,7 +9,7 @@ function HeroSection() {
       <div className="container">
         <div className="w-full md:w-3/4 mx-auto">
           <h2 className="text-32 md:text-64 tracking-tighter font-bold text-center hidden md:block mt-6 mb-1 mx-0">
-            Drive sales productivity. Bottom up Vymo.
+            Drive Sales Productivity. Bottom up Vymo.
           </h2>
           <h2 className="text-32 md:text-64 tracking-tighter font-bold text-center block md:hidden mt-5">
             Fix your sales engagement. Improve outcomes.
