@@ -1,20 +1,20 @@
 import React from 'react';
 import LogoSlider from './LogoSlider';
 const logos = [
-  { id: 1, src: 'bh.png', alt: 'BHHC', width: '234px'},
-  { id: 2, src: 'aia.svg', alt: 'AIA', width: '72px' },
-  { id: 3, src: 'axa.svg', alt: 'AXA', width: '64px' },
+  { id: 1, src: 'bh.png', alt: 'BHHC', width: '200px'},
+  { id: 2, src: 'aia.svg', alt: 'AIA', width: '68px' },
+  { id: 3, src: 'axa.svg', alt: 'AXA', width: '62px' },
   {
     id: 4,
     src: 'hdfc.svg',
     alt: 'HDFC Bank',
-    width: '200px',
+    width: '180px',
   },
   {
     id: 5,
     src: 'generali.svg',
     alt: 'Generali',
-    width: '200px',
+    width: '180px',
   },
 ];
 function TrustedSlider() {
