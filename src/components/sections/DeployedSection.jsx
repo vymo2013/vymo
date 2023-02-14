@@ -3,8 +3,8 @@ import TrustedSlider from '../Slider/TrustedSlider';
 function DeployedSection() {
   return (
     <>
-      <p className="text-16 md:text-18 font-medium text-center my-3 md:my-5">
-        Deployed for 300,000+ salespeople in 65+ world leading enterprises
+      <p className="text-24 md:text-20 font-light my-3 md:my-3 ">
+        Deployed for <span className="font-bold">300,000+</span> salespeople in <span className="font-bold">65+</span> world leading enterprises
       </p>
 
       <div>
