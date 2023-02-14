@@ -16,7 +16,7 @@ function BenifitsSection() {
       className="benifits-section relative fade-in"
       ref={ref}>
       <div className="box">
-        <div className="row relative z-10 col-xs-12 col-10 offset-1 section-pad m-pad">
+        <div className="row relative z-10 col-xs-12 col-10 offset-1 section-pad m-pt-4 m-pads">
           <div className="w-full lg:w-1/2 lg:top-3 lg:h-[0%] p-1">
             <h2 className="text-center lg:text-left text-28 md:text-48 text-white font-light leading-[38px] md:leading-[64px]">
               <span className="font-bold">The</span><i> single </i><span className="font-bold">pane of glass for sellers.</span>

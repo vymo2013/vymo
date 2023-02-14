@@ -410,6 +410,7 @@ p {
   .m-pad{
     padding-top:40px !important;
     padding:25px;
+    padding-bottom: 40px;
   }
   .pd-40r{
     padding-right:0px !important;
@@ -423,10 +424,74 @@ p {
     padding:40px;
     padding-top:0px;
   }
+  .hero-section .client-card:nth-child(2) {
+    margin-right: 15px !important;
+  }
+  #tns1 > .tns-item{
+    padding-left: 22px !important;
+  }
+  .benifits-section h2{
+    padding-top:40px;
+  }
+  .yell-btn{
+    padding-bottom: 30px;
+  }
+  .m-hiiden{
+    display: none;
+  }
+  .quote{
+    padding-right: 0px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top:0px;
+  }
+  .testimonial {
+    padding:20px;
+    padding-top:0px;
+  }
+  .testimonial p{
+    font-size: 12px;
+    margin-top:0xp!important;
+  }
+  .m-pt-7{
+    padding-top:70px;
+  }
+  .m-pt-4{
+    padding-top:40px;
+  }
+  .m-pads{
+    padding:20px;
+    padding-bottom: 40px !important;
+  }
+  .mb-\[40px\]{
+    margin-bottom: 10px;
+  }
+  .my-3{
+    margin-top:0px;
+  }
+  .section-pad{
+    padding-bottom: 20px;
+  }
+  .header-main .nav-list{
+    padding-top: 100px;
+  }
+  .header-main .nav-list.show a{
+    font-size: 18px;
+  }
+  .get-started-section img{
+    margin-top:-5px !important;
+  }
 }
 
 
-
+.l-h40{
+  line-height: 40px;
+}
+.xs-pad{
+  padding:15px;
+  padding-top:0px;
+  padding-bottom: 0px;
+}
 .md\:text-30 {
     font-size: 30px;
 }

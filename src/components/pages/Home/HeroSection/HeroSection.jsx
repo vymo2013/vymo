@@ -15,9 +15,9 @@ function HeroSection() {
             <span className="font-bold">Drive</span><i> sales productivity</i>. <span className="font-bold d-bck">Bottom up.</span>
           </h2>
           
-          <p className="text-16 opacity-60 text-center font-medium mt-6 mb-1 block md:hidden">
-            <span className="font-bold text-[24px]">Drive sales productivity. Bottom up.</span> </p>
-            <p className="text-14 opacity-60 text-center font-medium mb-4 block md:hidden">  Give your sales teams and leadership visibility and control.</p>
+          <p className="text-16 opacity-70 text-center font-medium mt-6 mb-1 block md:hidden">
+            <span className="font-light text-[42px] l-h40"> <span className="font-bold">Drive</span><i> sales productivity</i>. <span className="font-bold d-bck">Bottom up.</span></span> </p>
+            <p className="text-14 opacity-60 text-center font-medium pt-1 mb-4 block md:hidden">  Give your sales teams and leadership visibility and control.</p>
             <p className="md:hidden text-center"><a href="#!" className="float-btn r0">
                 See Vymo in action →
             </a></p>
@@ -39,7 +39,7 @@ function HeroSection() {
             </div>*/}
           </div>
         </div>
-        <div className="flex mt-3 mb-5 col-10 offset-1">  
+        <div className="flex mt-3 mb-5 col-10 offset-1 col-xs-12 xs-pad">  
           <div className="client-card hidden md:block relative z-30">
             <div className="client-img">
               <img
