@@ -60,6 +60,17 @@ body {
 }
 .header-main .header-action{
   background-color:#000;
+  transition: all .2s ease-in-out;
+}
+.header-main .header-action:hover{
+  background-color:#fff;
+  color: #000;
+  border:1px solid #000;
+  transform: scale(1.02);
+}
+.dropdown-content a:hover{
+  transform: scale(1.02);
+  transition: all .2s ease-in-out;
 }
 @media (min-width: 1024px){
   .lg\:h-\[0\%\] {
@@ -343,11 +354,12 @@ p {
 .btn-pers{
   border: 1px solid #3A405A;
   border-radius: 4px;
+  transition: all .2s ease-in-out;
 }
 .btn-pers:hover{
   background-color: #000;
   color: #fff;
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 .btn-pers:hover svg path{
    fill: #fff;
@@ -509,7 +521,7 @@ p {
   justify-content: center;
 
   .logo-image {
-    margin: 0 35px;
+    margin: 0 44px;
     height: 100px;
     display: flex;
     align-items: center;
@@ -605,6 +617,9 @@ p {
     color: #263bd6;
   }
 }
+.text-22{
+  font-size: 22px;
+}
 
 .play-button {
   width: 77px;
@@ -666,4 +681,25 @@ p {
   100% {
     transform: scale(1.4);
   }
+}
+.download-slider-container .download-slider .download-link{
+  text-decoration: none;
+  position:relative;
+}
+.download-slider-container .download-slider .download-link::after {
+  content: '';
+  position: absolute;
+  width: 39%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -1px;
+  left: 0;
+  background-color: #505ece;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.download-slider-container .download-slider .download-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

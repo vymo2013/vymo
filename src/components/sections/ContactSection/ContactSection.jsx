@@ -20,7 +20,7 @@ function ContactSection() {
               <span className="font-bold">Want to see what </span><i>Vymo can do</i><span className="font-bold"> for your team?</span>
             </h2>
           </div>
-          <p className="text-white mt-2 mb-5 text-center text-18">
+          <p className="text-white mt-2 mb-5 text-center text-22">
             Book a personalized demo of Vymo
           </p>
           <div className="flex w-100 justify-center font-medium z-10 relative">
@@ -30,17 +30,17 @@ function ContactSection() {
               className="py-[16px] md:py-[20px] w-100 md:w-[495px] px-1 md:px-[32px] text-14 md:text-16 flex-[0.8] md:flex-initial"
             />
             <Button primaryRed className="text-14 md:text-16">
-              See it in action
+              Get Started
             </Button>
           </div>
-          <div className="grid-element">
+          {/*<div className="grid-element">
             <img
               src="/img/design-element/grid.svg"
               alt=""
               className="w-3/5 md:w-auto"
             />
           </div>
-          {/*<div className="star-element">
+*/}          {/*<div className="star-element">
             <img
               src="/img/design-element/star.svg"
               alt=""

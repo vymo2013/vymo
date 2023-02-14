@@ -7,7 +7,7 @@ function TestimonialSection() {
     if (entry) entry.target.classList.add('fade-in-view');
   }, [inView]);
   return (
-    <section className="section-pad sales-detail-section testimonial fade-in" ref={ref}>
+    <section className="section-pad sales-detail-section testimonial fade-in mt-3" ref={ref}>
       {/*
       */}
       <div className="no-padding">

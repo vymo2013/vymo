@@ -46,6 +46,24 @@
   line-height: 27px;
   letter-spacing: 0.2px;
   color: #FFC75A;
+  position:relative;
+}
+.yell-btn::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: #FFC75A;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.yell-btn:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 .benifits-section .box{
    background:url('/img/vector2.png');
