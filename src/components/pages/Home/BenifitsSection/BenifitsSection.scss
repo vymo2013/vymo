@@ -1,6 +1,6 @@
 @import '../../../../styles/variables';
 .benifits-section {
-  background: $dark-purple;
+  background: $dark;
   .benifit-card {
     h3 {
       line-height: 60px;
@@ -38,4 +38,35 @@
       opacity: 1 !important;
     }
   }
+}
+.yell-btn{
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+  color: #FFC75A;
+}
+.benifits-section .box{
+   background:url('/img/vector2.png');
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-position: top right;
+/*   background-position: -25px 220px;*/
+}
+.benifits-section .box2{
+  background: rgba(255, 255, 255, 0.02);
+}
+.pd-40r{
+  padding-right: 60px;
+}
+.section-pad2 {
+  padding: 20px 0;
+  @media (max-width: 767px) {
+    padding: 10px 0;
+  }
+}
+.imh{
+  display:inline-block;
+  padding-top: 8px;
 }

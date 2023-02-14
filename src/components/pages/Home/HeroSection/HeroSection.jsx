@@ -6,48 +6,49 @@ import './HeroSection.scss';
 function HeroSection() {
   return (
     <section className="relative section-pad hero-section">
-      <div className="container">
-        <div className="w-full md:w-3/4 mx-auto">
-          <h2 className="text-32 md:text-64 tracking-tighter font-bold text-center hidden md:block mt-6 mb-1 mx-0">
-            Drive Sales Productivity. Bottom up Vymo.
-          </h2>
-          <h2 className="text-32 md:text-64 tracking-tighter font-bold text-center block md:hidden mt-5">
-            Fix your sales engagement. Improve outcomes.
-          </h2>
-          <p className="text-[21px] opacity-60 text-center font-medium mt-2 hidden md:block">
+      <div className="box">
+        <div className="w-full col-10 offset-1 mx-auto">
+          <p className="text-[20px] opacity-65 font-light mt-6 hidden md:block f-color">
             Give your sales teams and leadership visibility and control.
           </p>
-          <p className="text-16 opacity-60 text-center font-medium mt-2 block md:hidden">
-            Vymo captures sales activities automatically and nudges next best
-            actions contextually to improve outcomes. Give your sales teams and
-            leadership visibility and control.
-          </p>
-          <div className="hidden md:flex relative mt-5">
+          <h2 className="text-32 md:text-64 hidden md:block mb-1 mx-0">
+            <span className="font-bold">Drive</span><i> sales productivity</i>. <span className="font-bold d-bck">Bottom up.</span>
+          </h2>
+          
+          <p className="text-16 opacity-60 text-center font-medium mt-6 mb-1 block md:hidden">
+            <span className="font-bold text-[24px]">Drive sales productivity. Bottom up.</span> </p>
+            <p className="text-14 opacity-60 text-center font-medium mb-4 block md:hidden">  Give your sales teams and leadership visibility and control.</p>
+            <p className="md:hidden text-center"><a href="#!" className="float-btn r0">
+                See Vymo in action →
+            </a></p>
+
+          <div className="hidden md:flex relative mt-0">
             <div className="flex-1">
-              <Button className="float-right  md:py-[16px] md:px-[24px]">
-                See Vymo in action
-              </Button>
+              {/* <Button className="float-right  md:py-[16px] md:px-[24px]"> */}
+              <a href="#!" className="float-right float-btn">
+                See Vymo in action →
+              </a>
             </div>
-            <div className="flex-1">
+            {/*<div className="flex-1">
               <Button secondary className="ml-1  md:py-[16px] md:px-[24px]">
                 View Solutions
               </Button>
               <div className="z-0 inline-block absolute -translate-y-1/3 translate-x-3 rotate-[5deg] -top-1">
                 <img src="/img/design-element/curve-arrow.svg" alt="" />
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
-        <div className="flex items-center mt-5 mb-5 md:mb-7">
+        <div className="flex mt-3 mb-5 col-10 offset-1">  
           <div className="client-card hidden md:block relative z-30">
             <div className="client-img">
               <img
-                src="/img/peter-aiden.png"
+                src="/img/frame1.webp"
                 alt=""
-                width="281px"
-                height="364px"
+                width="214px"
+                height="215px"
               />
-              <div className="absolute bg-primaryRed client-dialog md:-bottom-4 lg:-bottom-3 xl:-bottom-2 right-0 md:translate-x-[85%] lg:translate-x-[80%] xl:translate-x-2/3 w-[240px]">
+              {/*<div className="absolute bg-primaryRed client-dialog md:-bottom-4 lg:-bottom-3 xl:-bottom-2 right-0 md:translate-x-[85%] lg:translate-x-[80%] xl:translate-x-2/3 w-[240px]">
                 <div className="flex flex-row">
                   <div>
                     <p className="action-text action-title">
@@ -74,22 +75,22 @@ function HeroSection() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>*/}
             </div>
-            <div className="absolute bottom-0 left-2">
+            {/*<div className="absolute bottom-0 left-2">
               <p className="client-name">Peter Aiden</p>
               <p className="client-profession">Insurance Agent</p>
-            </div>
+            </div>*/}
           </div>
           <div className="client-card relative z-20">
             <div className="client-img">
               <img
-                src="/img/emily-rose.png"
+                src="/img/frame2.webp"
                 alt=""
-                width="355px"
-                height="443px"
+                width="223px"
+                height="362px"
               />
-              <div className="absolute bg-primaryRed client-dialog md:bottom-[60%]  xl:bottom-1/2 right-0 md:translate-x-[60%] lg:translate-x-[35%] translate-y-full xl:translate-x-1/4 w-[300px] hidden md:block">
+              {/*<div className="absolute bg-primaryRed client-dialog md:bottom-[60%]  xl:bottom-1/2 right-0 md:translate-x-[60%] lg:translate-x-[35%] translate-y-full xl:translate-x-1/4 w-[300px] hidden md:block">
                 <div className="flex flex-row">
                   <div className="mr-2">
                     <img
@@ -119,8 +120,8 @@ function HeroSection() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="absolute bg-primaryRed client-dialog bottom-5 left-1 -translate-y-1/2 w-[200px] block md:hidden">
+              </div>*/}
+              {/*<div className="absolute bg-primaryRed client-dialog bottom-5 left-1 -translate-y-1/2 w-[200px] block md:hidden">
                 <div className="flex flex-row">
                   <div className="mr-1">
                     <img
@@ -155,22 +156,22 @@ function HeroSection() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>*/}
             </div>
-            <div className="absolute bottom-0 left-2">
+            {/*<div className="absolute bottom-0 left-2">
               <p className="client-name">Emily Rose</p>
               <p className="client-profession">Insurance Agent</p>
-            </div>
+            </div>*/}
           </div>
           <div className="client-card relative z-10">
             <div className="client-img">
               <img
-                src="/img/jack-mosby.png"
+                src="/img/frame3.webp"
                 alt=""
-                width="355px"
-                height="458px"
+                width="347px"
+                height="382px"
               />
-              <div className="absolute bg-primaryRed client-dialog md:bottom-[-85px] lg:-bottom-2 xl:bottom-2 right-0 md:translate-x-[60%] lg:translate-x-[65%] xl:translate-x-2/4 w-[300px] hidden md:block">
+              {/*<div className="absolute bg-primaryRed client-dialog md:bottom-[-85px] lg:-bottom-2 xl:bottom-2 right-0 md:translate-x-[60%] lg:translate-x-[65%] xl:translate-x-2/4 w-[300px] hidden md:block">
                 <div className="flex flex-row">
                   <div className="mr-2">
                     <img
@@ -205,8 +206,8 @@ function HeroSection() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="absolute bg-primaryRed client-dialog bottom-[40%] right-1 w-[200px] block md:hidden">
+              </div>*/}
+              {/*<div className="absolute bg-primaryRed client-dialog bottom-[40%] right-1 w-[200px] block md:hidden">
                 <div className="flex flex-row">
                   <div className="mr-1">
                     <img
@@ -236,29 +237,43 @@ function HeroSection() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>*/}
             </div>
-            <div className="absolute bottom-0 left-2">
+            {/*<div className="absolute bottom-0 left-2">
               <p className="client-name">Jack Mosby</p>
               <p className="client-profession">Sales Leader</p>
-            </div>
+            </div>*/}
           </div>
           <div className="client-card hidden md:block relative z-0">
             <div className="client-img">
               <img
-                src="/img/veronika-james.png"
+                src="/img/frame4.webp"
                 alt=""
-                width="277px"
-                height="339px"
+                width="151px"
+                height="151px"
               />
             </div>
-            <div className="absolute bottom-0 left-2">
+           {/* <div className="absolute bottom-0 left-2">
               <p className="client-name">Veronika James</p>
               <p className="client-profession">Insurance Agent</p>
+            </div>*/}
+          </div>
+          <div className="client-card hidden md:block relative z-0">
+            <div className="client-img">
+              <img
+                src="/img/frame5.webp"
+                alt=""
+                width="160px"
+                height="255px"
+              />
             </div>
+           {/* <div className="absolute bottom-0 left-2">
+              <p className="client-name">Veronika James</p>
+              <p className="client-profession">Insurance Agent</p>
+            </div>*/}
           </div>
         </div>
-        <div className="row justify-center overflow-hidden">
+        <div className="row overflow-hidden col-10 offset-1 col-xs-12 logo-shw">
           <DeployedSection />
         </div>
         {/* <div className="grid grid-cols-3 md:grid-cols-5 logo-container">

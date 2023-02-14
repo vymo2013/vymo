@@ -17,6 +17,7 @@ function SalesEngagement(props) {
         <div className="w-full lg:w-3/5 mx-auto max-w-[1060px]">
           <SectionHeading className="mb-3 md:mb-6">
             {props.title}
+            <img src="/img/sales-eng.svg" width="100%"/>
           </SectionHeading>
         </div>
       </div>
@@ -25,7 +26,7 @@ function SalesEngagement(props) {
   );
 }
 SalesEngagement.defaultProps = {
-  title: 'Recognized for driving innovation in Sales Engagement',
+  title: '',
 };
 SalesEngagement.propTypes = {
   title: PropTypes.string,

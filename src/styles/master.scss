@@ -40,7 +40,6 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-
 body {
   font-family: $font-family;
   font-size: 16px;
@@ -58,6 +57,9 @@ body {
   &.overflow {
     overflow: hidden;
   }
+}
+.header-main .header-action{
+  background-color:#000;
 }
 
 ul,
@@ -85,6 +87,7 @@ button {
 h1,
 h2 {
   // letter-spacing: -3px;
+  font-family: $font-heading;
 }
 
 h1,
@@ -93,11 +96,12 @@ h3,
 h4,
 h5 {
   margin: 0;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 100%;
   color: #000;
   font-family: $font-heading;
 }
+
 
 p {
   margin: 0 0 16px;
@@ -187,6 +191,9 @@ p {
     width: 100%;
   }
 }
+.d-bck{
+  display: block;
+}
 .col-md {
   padding: 0 15px;
 
@@ -250,11 +257,54 @@ p {
   }
 }
 .section-pad {
-  padding: 120px 0;
+  padding: 100px 0;
   @media (max-width: 767px) {
     padding: 60px 0;
   }
 }
+.h3-text{
+  font-style: normal;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #17171C;
+}
+.h3-text-wh{
+  color: #fff;
+}
+.quote{
+  clear: both;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  color: #17171C;
+  padding-right: 60px;
+}
+.no-pad-top{
+  padding-top:20px;
+}
+#tns2-item0 .bg-fluff{
+  background: #DEEFFF;
+}
+#tns2-item1 .bg-fluff{
+  background: #DDFFEB;
+}
+#tns2-item2 .bg-fluff{
+  background: #FFE7DF;
+}
+.download-slider-container .download-slider .download-card h3{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  letter-spacing: -1px;
+  color: #00000A;
+}
+.download-slider-container .download-slider .download-card p{
+  opacity: .58;
+}
+
 .p-section-1 {
   padding: 120px 0;
   @media (max-width: 767px) {
@@ -273,7 +323,102 @@ p {
     padding: 96px 0;
   }
 }
+.personal-box{
+  border-radius: 4px;
+  min-height: 350px;
+  padding:44px 82px 0px 45px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-pers{
+  border: 1px solid #3A405A;
+  border-radius: 4px;
+}
+.btn-pers:hover{
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.05);
+}
+.btn-pers:hover svg path{
+   fill: #fff;
+}
+.btn-pers svg path{
+  fill: #000;
+}
+@media only screen and (min-width: 768px) {
+  .p-box-bg1{
+     background:url('/img/personal2.webp');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: bottom right;
+/*     background-position-x: 110px;*/
+  }
+  .p-box-bg2{
+     background:url('/img/personal1.webp');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: bottom right;
+/*     background-position-x: 60px;*/
+  }
+  .personal-box{
+    min-height: 600px;
+  }
+  .contact-section .bg-gg{
+     background:url('/img/vector4.png');
+     background-size: auto;
+     background-repeat: no-repeat;
+     background-position: top right;
+/*     background-position-x: 60px;*/
+  }
+}
+@media only screen and (max-width: 600px) {
+  .col-xs-12{
+    width:100% !important;
+  }
+  .personal-box{
+    padding: 44px 40px 0px 40px;
+  }
+  .h3-text{
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .personal-box h3{
+    font-size: 22px;
+  }
+  .btn-pers{
+    width: 180px;
+  }
+  .grid-cols-4 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .benifit-card{
+    margin:20px auto;
+  }
+  .benifits-section .box, .hero-section{
+    background:none !important;
+  }
+  .m-pad{
+    padding-top:40px !important;
+    padding:25px;
+  }
+  .pd-40r{
+    padding-right:0px !important;
+    font-size:16px;
+    text-align: left;
+  }
+  .yell-btn{
+    font-size: 14px;
+  }
+  .logo-shw{
+    padding:40px;
+    padding-top:0px;
+  }
+}
 
+
+
+.md\:text-30 {
+    font-size: 30px;
+}
 .fade-in {
   opacity: 0;
   transition-property: opacity;

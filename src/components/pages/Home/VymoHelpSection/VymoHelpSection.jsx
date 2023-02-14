@@ -171,7 +171,7 @@ function VymoHelpSection() {
   return (
     <section className="section-pad vymo-help-section fade-in" ref={ref}>
       <div className="container z-10">
-        <SectionHeading>How Vymo can help</SectionHeading>
+        <h3 className="mb-3 md:mb-6 font-light md:text-44 text-center h3-text"><span className="font-bold">How Vymo</span> <i>can help.</i></h3>
         <div className="flex mt-6">
           <div className="w-full md:w-1/2 lg:w-2/5 h-[0%]">
             {helpDropDown.map(({ id, ...props }) => (
