@@ -209,7 +209,7 @@ function PersonalAssistantSection() {
   }, []);
   return (
     <section
-      className="section-pad personal-assistant-section "
+      className="section-pad personal-assistant-section"
       // ref={ref}
     >
       <div className="container z-10">
@@ -231,7 +231,7 @@ function PersonalAssistantSection() {
           </svg>
         </SectionHeading>
         {/* <div className="h-[500px] bg-purple my-5"></div> */}
-        <div className="flex flex-col relative tab-container py-5">
+        <div className="flex flex-col relative tab-container py-5 mb-2">
           <div
             // role="button"
             className="tab-item bg-lightPurple relative h-auto md:h-[500px] flex md:flex-row py-5 px-2 md:px-5 justify-center md:justify-between items-center rounded-3xl flex-wrap md:flex-nowrap">

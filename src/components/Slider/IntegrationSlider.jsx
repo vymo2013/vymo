@@ -99,7 +99,7 @@ function IntegrationSlider() {
           <div key={i.id} className="item">
             <div className="integration-card">
               <img alt="" {...i.img} src={`/img/logo/${i.img.src}`} />
-              <div className="name text-18 md:text-20">{i.title}</div>
+              <div className="name text-18 md:text-20 tracking-[-1px]">{i.title}</div>
               <p className="text-14 text-white">{i.description}</p>
             </div>
           </div>

@@ -11,12 +11,12 @@ function HeroSection() {
           <p className="text-[20px] opacity-65 font-light mt-6 hidden md:block f-color">
             Give your sales teams and leadership visibility and control.
           </p>
-          <h2 className="text-32 md:text-64 hidden md:block mb-1 mx-0">
+          <h1 className="text-32 md:text-64 hidden md:block mb-1 mx-0">
             <span className="font-bold">Drive</span><i> sales productivity</i>. <span className="font-bold d-bck">Bottom up.</span>
-          </h2>
+          </h1>
           
-          <p className="text-16 opacity-70 text-center font-medium mt-6 mb-1 block md:hidden">
-            <span className="font-light text-[42px] l-h40"> <span className="font-bold">Drive</span><i> sales productivity</i>. <span className="font-bold d-bck">Bottom up.</span></span> </p>
+          <p className="text-16 opacity-90 text-center font-medium mt-6 mb-1 block md:hidden">
+            <span className="font-medium text-[42px] l-h40"> <span className="font-bold">Drive</span><i> sales productivity</i>. <span className="font-bold d-bck">Bottom up.</span></span> </p>
             <p className="text-14 opacity-60 text-center font-medium pt-1 mb-4 block md:hidden">  Give your sales teams and leadership visibility and control.</p>
             <p className="md:hidden text-center"><a href="#!" className="float-btn r0">
                 See Vymo in action →
@@ -39,7 +39,7 @@ function HeroSection() {
             </div>*/}
           </div>
         </div>
-        <div className="flex mt-3 mb-5 xs-pad">  
+        <div className="flex mt-2 mb-4 xs-pad">  
           <div className="client-card hidden md:block relative z-30">
             <div className="client-img">
               <img

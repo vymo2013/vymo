@@ -15,7 +15,7 @@ function BenifitsSection() {
     <section
       className="benifits-section relative fade-in"
       ref={ref}>
-      <div className="box section-pad pb-50">
+      <div className="box section-pad pb-80">
         <div className="container">
           <div className="row relative z-10 m-pt-4 m-pads p-1 pt-0 pb-0">
             <div className="w-full lg:w-1/2 lg:top-3 lg:h-[0%] p-1">
@@ -44,7 +44,7 @@ function BenifitsSection() {
       </div>
       <div className="box2 ection-pad2 ">
         <div className="container">
-          <div className="row relative z-10 smt-2 p-1 pt-0 pb-0">
+          <div className="row relative z-10 smt-2 p-1">
               <div className="grid grid-cols-4 col-12 mb-4 mt-3">
                 <div className="py-2 rounded-2xl benifit-card h-full">
                   <div className="w-full">

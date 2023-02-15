@@ -50,7 +50,7 @@ function ProgressSlider({ children, dark, config }) {
         !dark ? 'light' : ''
       }`}>
       <div ref={sliderContainerRef}>{children}</div>
-      <div className="flex items-center mt-5 hidden-mobile">
+      <div className="flex items-center mt-5 hidden-mobile xs:mt-0">
         <div className="slider-progress">
           <div className="progress" ref={sliderProgressRef}></div>
         </div>

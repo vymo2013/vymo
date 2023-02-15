@@ -144,7 +144,7 @@ function TransformingSection() {
   
     <section className="relative why-transforming-section fade-in" ref={ref}>
       <div className="container">
-        <h2 className="mb-5 md:mb-6 text-48 font-light text-center leading-[64px]">
+        <h2 className="mb-5 md:mb-6 text-48 font-light text-center leading-[64px] m-font-head">
           <span className="font-bold">Transforming data into</span> <span className="d-bck"><i>intelligent insights</i></span>
         </h2>
         <div className="row insights-bg">
@@ -155,15 +155,25 @@ function TransformingSection() {
           ))}
         </div>
       </div>
-      <div className="container">
-        <div className="col-10 offset-1 mt-6 mb-6 pt-6">
-           <a href="#!" className="img-hv"><img src="/img/why/future-of-software.webp" width="100%" alt="the future of sales"/></a>
+
+      <div className="container relative">
+        <div className="col-10 offset-1 col-xs-12 mt-6 mb-6 lg:pt-8">
+           <div className="video-bg hidden md:block">
+              <div className="w-full lg:w-1/2 lg:p-5">
+                <h4 className="text-28 md:text-28 text-white leading-[40px] font-light mt-4"><i>Gordon Ritter</i><span className="font-bold"> was one of the first angel investors in Salesforce. Here's why he thinks Vymo is revolutionary</span></h4>
+                <a href="#!"><button className="btn video-ybtn mt-5">Watch Video</button></a>
+              </div>
+              <div className="w-full lg:w-1/2"></div>
+           </div>
+           <a href="#!" className="img-hv md:hidden"><img src="/img/why/future-of-software.webp" width="100%" alt="the future of sales"/></a>
         </div>
       </div>
-      <p className="text-16 md:text-18 font-medium text-center my-5 lg:mt-7 lg:mb-5">
-        Trusted by the World’s leading Financial Institutions
-      </p>
-      <TrustedSlider />
+      <div className="lg:pt-2">
+        <p className="text-16 md:text-18 font-medium text-center md:my-4 lg:mt-6 lg:mb-5">
+          Trusted by the World’s leading Financial Institutions
+        </p>
+        <TrustedSlider />
+      </div>
     </section>
   );
 }

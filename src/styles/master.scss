@@ -60,13 +60,24 @@ body {
 }
 .header-main .header-action{
   background-color:#000;
+  border:1px solid #fff;
   transition: all .2s ease-in-out;
+}
+.btn-primary{
+  transition: all .2s ease-in-out;
+  border:1px solid rgb(80 94 206);
+}
+.btn-primary:hover{
+  background-color:#fff;
+  color: #000;
+  border:1px solid #000;
+  transform: scale(1.01);
 }
 .header-main .header-action:hover{
   background-color:#fff;
   color: #000;
   border:1px solid #000;
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 .img-hv:hover{
   transform: scale(1.01);
@@ -125,6 +136,7 @@ h5 {
   line-height: 100%;
   color: #000;
   font-family: $font-heading;
+  letter-spacing: -1px;
 }
 
 
@@ -376,7 +388,7 @@ p {
 .btn-pers:hover{
   background-color: #000;
   color: #fff;
-  transform: scale(1.03);
+  transform: scale(1.02);
 }
 .btn-pers:hover svg path{
    fill: #fff;
@@ -509,6 +521,28 @@ p {
   }
   .get-started-section img{
     margin-top:-5px !important;
+  }
+  .bg-gg{
+    padding:10px;
+  }
+  .why-vymo-hero-section .red-btn{
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  .m-font-head {
+    font-size: 30px;
+    line-height: 40px !important;
+    margin-top:40px;
+  }
+  .benefits-p{
+    font-size: 16px !important;
+    line-height: 26px;
+  }
+  .xs\:mb-4{
+     margin-bottom: 40px;
+  }
+  .xs\:mt-0{
+    margin-top:0px;
   }
 }
 @media only screen and (min-width: 1500px) {
@@ -721,8 +755,8 @@ p {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.pb-50{
-  padding-bottom: 50px;
+.pb-80{
+  padding-bottom: 60px;
 }
 .align-auto{
   margin-left:auto;
@@ -731,4 +765,7 @@ p {
 }
 .bg-darkblack{
   background:$nice-black;
+}
+.integration-slider-container .integration-card .name{
+  letter-spacing: -1px;
 }

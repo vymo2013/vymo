@@ -126,6 +126,7 @@
 }
 .red-btn{
   background: #FF5A5F;
+  border:1px solid #FF5A5F !important;
   border-radius: 4px;
   padding: 12px 24px;
   color:#fff;
@@ -135,11 +136,41 @@
 .red-btn:hover{
   background: #fff;
   color:#000;
-  border:1px solid #000;
+  border:1px solid #000 !important;
   transform: scale(1.01);
 }
 .benefits-p{
   font-style: normal;
   line-height: 30px;
   color: #17171C;
+}
+.video-bg{
+  background-image: url('/img/why/Future-of-Software_bg.webp');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:480px;
+  border-radius: 22px;
+  position:relative;
+  top:50px;
+}
+.video-ybtn{
+  padding: 16px 60px;
+  background: #FFC75A;
+  border-radius: 4px;
+  color:#000;
+  font-weight: 500;
+  font-size: 18px;
+  border:1px solid #FFC75A;
+  line-height: 24px;
+  transition: all .2s ease-in-out;
+}
+.video-ybtn:hover{
+  background-color:#fff;
+  color: #000;
+  border:1px solid #fff;
+  transform: scale(1.02);
+}
+.integration-slider-container .integration-card{
+  background: #3A405A;
 }

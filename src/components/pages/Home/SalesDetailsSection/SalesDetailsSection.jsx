@@ -15,7 +15,7 @@ function SalesDetailsSection() {
           </h3>
         </div>
       </div>
-      <div className="container no-padding">
+      <div className="container no-padding mb-2">
         <div className="row relative z-10 col-xs-12">
           <div className="w-full lg:w-1/2 lg:top-3 lg:h-[0%] p-2">
               <div className="personal-box p-box-bg1">
