@@ -6,8 +6,8 @@ import './HeroSection.scss';
 function HeroSection() {
   return (
     <section className="relative section-pad hero-section">
-      <div className="box">
-        <div className="w-full col-10 offset-1 mx-auto">
+      <div className="container box">
+        <div className="w-full mx-auto">
           <p className="text-[20px] opacity-65 font-light mt-6 hidden md:block f-color">
             Give your sales teams and leadership visibility and control.
           </p>
@@ -39,7 +39,7 @@ function HeroSection() {
             </div>*/}
           </div>
         </div>
-        <div className="flex mt-3 mb-5 col-10 offset-1 col-xs-12 xs-pad">  
+        <div className="flex mt-3 mb-5 xs-pad">  
           <div className="client-card hidden md:block relative z-30">
             <div className="client-img">
               <img
@@ -273,8 +273,10 @@ function HeroSection() {
             </div>*/}
           </div>
         </div>
-        <div className="row overflow-hidden col-10 offset-1 col-xs-12 logo-shw">
-          <DeployedSection />
+        <div className="container">
+          <div className="row overflow-hidden col-xs-12 logo-shw">
+            <DeployedSection />
+          </div>
         </div>
         {/* <div className="grid grid-cols-3 md:grid-cols-5 logo-container">
           {logos.map((l) => (

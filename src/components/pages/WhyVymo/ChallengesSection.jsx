@@ -14,12 +14,12 @@ function ChallengesSection() {
       ref={ref}>
       <div className="container">
         <div className="text-center  mb-[41px] md:mb-6">
-          <SectionHeading className="mb-3 md:mb-6">
-            Do you have these challenges?
-          </SectionHeading>
-          <Button>See how Vymo can help</Button>
+          <h3 className="mb-3 md:mb-6 text-48 font-light text-center leading-[64px]">
+            <span className="font-bold">Do you have these challenges?</span>
+          </h3>
         </div>
         <ChallengesSlider />
+         <a href="#!"><Button className="red-btn align-auto mt-5 mb-3">See how Vymo can help</Button></a>
       </div>
     </section>
   );

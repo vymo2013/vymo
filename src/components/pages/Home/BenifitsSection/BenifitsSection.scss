@@ -70,13 +70,13 @@
    background-size: auto;
    background-repeat: no-repeat;
    background-position: top right;
-/*   background-position: -25px 220px;*/
+   background-position-y: -20px;
 }
 .benifits-section .box2{
   background: rgba(255, 255, 255, 0.02);
 }
 .pd-40r{
-  padding-right: 60px;
+  padding-right: 90px;
 }
 .section-pad2 {
   padding: 20px 0;
@@ -87,4 +87,7 @@
 .imh{
   display:inline-block;
   padding-top: 8px;
+}
+.pl-0{
+  paddding-left:0px;
 }

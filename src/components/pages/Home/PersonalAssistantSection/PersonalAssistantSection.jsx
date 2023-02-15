@@ -283,7 +283,7 @@ function PersonalAssistantSection() {
               </div>
             </div>
             <div className="couch-img md:pl-1">
-              <img src="/img/couch.svg" width="393" height="440" alt="" />
+              <img src="/img/couch.svg" width="393" height="440" alt="couch" />
             </div>
             {/* <div className="tab-svg">
               <PersonalAssistantSvg />

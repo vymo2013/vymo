@@ -14,13 +14,13 @@ function IntegrationSection() {
       ref={ref}>
       <div className="container">
         <div className="row">
-          <div className="col-md col-6 mx-auto">
-            <SectionHeading className="text-white">
-              Turnkey Integrations with your sales tech stack
-            </SectionHeading>
+          <div className="col-md col-7 mx-auto">
+            <h3 className="text-white text-48 font-light text-center leading-[64px]">
+              <span className="font-bold">Vymo's Integrations with </span><i>your sales tech stack</i>
+            </h3>
           </div>
           <div className="col-md col-12">
-            <p className="text-16 opacity-50 text-center font-medium mt-2 text-white">
+            <p className="text-18 opacity-50 text-center font-medium mt-2 text-white">
               Get up and running in months weeks!
             </p>
           </div>

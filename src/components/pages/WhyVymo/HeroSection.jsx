@@ -3,18 +3,18 @@ import Button from '../../Button/Button';
 const benifits = [
   {
     id: 1,
-    img: 'line-chart.svg',
-    text: 'Leverage data across the customer lifecycle',
-  },
-  {
-    id: 2,
-    img: 'trophy.svg',
+    img: 'lucide_line-chart.svg',
     text: 'Turn systems of records into systems of insight',
   },
   {
+    id: 2,
+    img: 'lucide_trophy.svg',
+    text: 'Drive targeted interventions, improve outcomes ',
+  },
+  {
     id: 3,
-    img: 'database.svg',
-    text: 'Drive targeted interventions to improve outcomes',
+    img: 'lucide_database.svg',
+    text: 'Leverage data across the customer lifecycle',
   },
 ];
 function HeroSection() {
@@ -23,19 +23,17 @@ function HeroSection() {
       <div className="container mt-5 md:mt-0">
         <div className="row">
           <div className="col-md col-7 text-center lg:text-left self-center">
-            <h2 className="text-36 md:text-64 tracking-[-2px] leading-[44px] md:leading-[80px] font-bold">
-              Conventional CRMs are insufficient
+            <h2 className="text-36 md:text-60 tracking-[-2px] leading-[44px] md:leading-[68px] font-light mt-5">
+               <span className="font-bold">Conventional CRMs </span><span className="d-bck"> are <i>insufficient</i> </span>
             </h2>
-            <p className="text-black text-16 md:text-18 mt-1 font-medium opacity-60 mb-3 md:mb-[40px] w-full lg:w-4/5">
-              What you need is an intelligent sales frontend that helps you
-              drive interventions across the customer lifecycle to improve
-              outcomes.
+            <p className="text-black text-18 md:text-18 mt-2 font-medium opacity-60 mb-1 md:mb-[25px] w-full lg:w-4/5">
+              What you need is an intelligent sales frontend that helps you drive interventions across the customer lifecycle to improve outcomes.
             </p>
-            <Button>See how Vymo can help</Button>
+            <a href="#!" target="_blank"><Button className="red-btn">See how Vymo can help</Button></a>
           </div>
-          <div className="col-md col-5 mt-5 lg:mt-0 relative hero-img">
+          <div className="col-md col-5 mt-4 lg:mt-5 relative hero-img mb-4">
             <img
-              src="/img/why/hero.png"
+              src="/img/why/bg.webp"
               alt=""
               width="542px"
               height="557px"
@@ -46,9 +44,9 @@ function HeroSection() {
               alt=""
               width="116px"
               height="129px"
-              className="absolute -top-[2px] right-[-76px] z-[2] hidden lg:block"
+              className="absolute -top-[2px] right-[-38px] z-[2] hidden lg:block"
             />
-            <div className="absolute trans-dialog bottom-0 p-4 z-[1]">
+            {/*<div className="absolute trans-dialog bottom-0 p-4 z-[1]">
               <div className="flex flex-row trans-dialog-container px-[11px] py-[8px] md:px-[14px] md:py-[14px]">
                 <img
                   src="/img/icons/trans-doc.svg"
@@ -78,20 +76,20 @@ function HeroSection() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
         <div className="row benifit-row">
           {benifits.map((b) => (
             <div className="col-md col-4 flex mb-4 lg:mb-0" key={b.id}>
               <img
-                className="inline relative lg:top-[6px] w-[30px] h-[30px] lg:w-[25px] lg:h-[25px]"
-                src={`/img/icons/${b.img}`}
-                width="25"
-                height="25"
+                className="inline relative lg:top-[6px] w-[50px] h-[50px] lg:w-[50px] lg:h-[50px]"
+                src={`/img/why/${b.img}`}
+                width="50"
+                height="50"
                 alt=""
               />
-              <p className="ml-[21px] font-medium text-18 md:text-20 self-center mb-0">
+              <p className="ml-[21px] font-medium text-18 md:text-20 self-center mb-0 benefits-p opacity-90">
                 {b.text}
               </p>
             </div>

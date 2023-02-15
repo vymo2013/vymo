@@ -97,7 +97,7 @@ function Header({ dark }) {
   return (
     <header>
       <div className={`header-main ${!dark ? 'light' : ''}`}>
-        <div className="container">
+        <div className="fluid-container">
           <div
             className={`flex flex-row justify-between items-center header-container ${
               openNav ? 'show' : ''

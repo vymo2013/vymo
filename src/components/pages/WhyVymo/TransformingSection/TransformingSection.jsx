@@ -9,7 +9,7 @@ const insights = [
   {
     id: 1,
     title: 'Winning Behaviours',
-    text: 'Identify the best practices of your star performers and nudge the rest of your team towards winning behaviors',
+    text: 'Identify the best practices of your star performers and nudge the rest of your team towards winning behaviours',
     after: null,
     icon: 'why-cube.svg',
     dialog: (
@@ -83,11 +83,11 @@ const insights = [
     text: 'Gain visibility into the activities, goals, and skill gaps of your team and intervene proactively through intelligent nudges, suggestions, and comprehensive data',
     after: (
       <img
-        className="absolute left-1/2  -translate-x-3 personal-curve"
-        src="img/design-element/why-personal-curve.svg"
+        className="absolute left-1/2  -translate-x-3 personal-curve mt-2"
+        src="/img/why/arrow-vector.svg"
         width="178"
         height="197"
-        alt=""
+        alt="arrow vector"
       />
     ),
     icon: 'why-piechart.svg',
@@ -141,17 +141,23 @@ function TransformingSection() {
     if (entry) entry.target.classList.add('fade-in-view');
   }, [inView]);
   return (
+  
     <section className="relative why-transforming-section fade-in" ref={ref}>
       <div className="container">
-        <SectionHeading className="mb-5 md:mb-6">
-          Transforming data into intelligent insights
-        </SectionHeading>
-        <div className="row">
+        <h2 className="mb-5 md:mb-6 text-48 font-light text-center leading-[64px]">
+          <span className="font-bold">Transforming data into</span> <span className="d-bck"><i>intelligent insights</i></span>
+        </h2>
+        <div className="row insights-bg">
           {insights.map((i) => (
             <div className="col-md col-5" key={i.id}>
               <InsightsCard {...i} icon={`/img/icons/${i.icon}`} />
             </div>
           ))}
+        </div>
+      </div>
+      <div className="container">
+        <div className="col-10 offset-1 mt-6 mb-6 pt-6">
+           <a href="#!" className="img-hv"><img src="/img/why/future-of-software.webp" width="100%" alt="the future of sales"/></a>
         </div>
       </div>
       <p className="text-16 md:text-18 font-medium text-center my-5 lg:mt-7 lg:mb-5">

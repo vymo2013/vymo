@@ -10,8 +10,8 @@ function TestimonialSection() {
     <section className="section-pad sales-detail-section testimonial fade-in mt-3" ref={ref}>
       {/*
       */}
-      <div className="no-padding">
-        <div className="row relative z-10 col-xs-12 col-8 offset-2">
+      <div className="container no-padding">
+        <div className="row relative z-10 col-xs-12 col-10 offset-1">
           <div className="w-full lg:w-5/12 lg:top-3 lg:h-[0%] p-3 m-pt-7">
               <img src="/img/jeff.webp" alt="Jeff Morris" width="100%"/>
           </div>
