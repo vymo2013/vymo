@@ -228,7 +228,7 @@ const links = [
 ];
 function Footer({ dark }) {
   return (
-    <footer className={`main-footer ${dark ? 'bg-darkPurple' : 'bg-white'}`}>
+    <footer className={`main-footer ${dark ? 'bg-darkblack' : 'bg-white'}`}>
       <div className="fluid-container">
         <div className="flex flex-wrap flex-row pt-3 md:pt-[80px] md:pl-3 md:pr-0">
           {links.map((l) => (

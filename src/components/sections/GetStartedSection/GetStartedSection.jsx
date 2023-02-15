@@ -22,7 +22,7 @@ const linkCards = [
 ];
 function GetStartedSection() {
   return (
-    <section className="bg-darkPurple get-started-section">
+    <section className="bg-darkblack get-started-section">
       <div className="container">
         <div className="flex flex-col md:flex-row link-card-container">
           {linkCards.map((lc) => (

@@ -9,7 +9,7 @@ import SalesDetailsSection from '../components/pages/Home/SalesDetailsSection/Sa
 import TestimonialSection from '../components/pages/Home/TestimonialSection/TestimonialSection';
 // import PersonalAssistantSection from '../components/pages/Home/PersonalAssistantSection/PersonalAssistantSection';
 import SalesEngagementSection from '../components/sections/SalesEngagementSection/SalesEngagementSection';
-import VymoHelpSection from '../components/pages/Home/VymoHelpSection/VymoHelpSection';
+// import VymoHelpSection from '../components/pages/Home/VymoHelpSection/VymoHelpSection';
 import SEO from '../components/SEO';
 
 function IndexPage() {
@@ -22,7 +22,7 @@ function IndexPage() {
       <ContactSection />
       <TestimonialSection />
       {/*<PersonalAssistantSection />*/}
-      <VymoHelpSection />
+      {/*<VymoHelpSection />*/}
       <SalesEngagementSection />
       <GetStartedSection />
     </Layout>
