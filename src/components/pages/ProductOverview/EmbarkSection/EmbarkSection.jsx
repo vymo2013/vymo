@@ -10,28 +10,23 @@ gsap.registerPlugin(ScrollTrigger);
 const slides = [
   {
     key: 1,
-    title: 'Core Modules',
-    text: 'Vymo captures sales activities automatically and nudges next best actions contextually to improve outcomes. Give your sales teams and leadership visibility and control.',
+    title: 'Rep’s Incentives & Goals',
+    text: 'How many products should a rep sell?',
   },
   {
     key: 2,
-    title: 'Engagement Channels',
-    text: 'Vymo captures sales activities automatically and nudges next best actions contextually to improve outcomes.',
+    title: 'Goals & Activities',
+    text: 'What should the rep do right now?',
   },
   {
     key: 3,
-    title: 'Insights & Analytics',
-    text: 'Vymo captures sales activities automatically and nudges next best actions contextually to improve outcomes. Give your sales teams and leadership visibility and control.',
+    title: 'Customer Experience',
+    text: 'What does the customer need?',
   },
   {
     key: 4,
-    title: 'Vymo Docs',
-    text: 'Vymo captures sales activities automatically and nudges next best actions contextually to improve outcomes.',
-  },
-  {
-    key: 5,
-    title: 'Winning Behaviors',
-    text: 'Vymo captures sales activities automatically and nudges next best actions contextually to improve outcomes. Give your sales teams and leadership visibility and control.',
+    title: 'Organization’s Objectives',
+    text: 'How can we increase the topline?',
   },
 ];
 function EmbarkSection() {
@@ -74,7 +69,7 @@ function EmbarkSection() {
       planes.forEach((p, i) => {
         const tl = gsap.timeline();
         tls.push(tl);
-        gsap.set(p, { bottom: 500 });
+        gsap.set(p, { bottom: 320 });
 
         // smallTimeline.fromTo(
         //   p,
@@ -111,7 +106,7 @@ function EmbarkSection() {
 
         tl.fromTo(
           p,
-          { opacity: 0, bottom: 500 },
+          { opacity: 0, bottom: 320 },
           { opacity: 1, duration: 0.25, bottom: i * 50 },
           0,
         ).fromTo(
@@ -136,10 +131,10 @@ function EmbarkSection() {
     <section
       className="relative pt-0 md:pb-4 embark-section overflow-hidden"
       ref={containerRef}>
-      <div className="pin-up hidden md:flex md:items-center md:min-h-screen">
-        <div className="container">
-          <SectionHeading textAlign="left" className="headline mb-[70px]">
-            Embrace the future stack
+      <div className="container pin-up hidden md:flex md:items-center md:min-h-screen">
+        <div className="col-10 offset-1 col-xs-12">
+          <SectionHeading textAlign="left" className="headline mb-[0px] mt-[50px] font-light md:max-w-[620px]">
+            <span className="font-bold">Design</span><i> strategic journeys</i><span className="font-bold"> bottom up</span>
           </SectionHeading>
           <div className="flex justify-center items-center">
             <div className="w-7/12">
@@ -159,12 +154,12 @@ function EmbarkSection() {
                   <div className="content-track flex h-[343px] flex-col relative w-full">
                     {slides.map((s) => (
                       <div
-                        className="absolute top-0 flex-shrink-0 h-full w-full flex flex-col justify-center bg-white"
+                        className="absolute top-0 mt-1 flex-shrink-0 h-full w-full flex flex-col justify-center bg-white"
                         key={s.key}>
-                        <div className="font-bold text-32 leading-[42px] tracking-[-1px]  font-objectivity">
+                        <div className="font-bold text-32 leading-[42px] tracking-[-1px] ">
                           {s.title}
                         </div>
-                        <p className="font-medium text-16 leading-6 opacity-50 text-black mb-4">
+                        <p className="font-light mt-1 text-18 leading-6 opacity-90 text-black mb-4">
                           {s.text}
                         </p>
                       </div>
@@ -192,7 +187,7 @@ function EmbarkSection() {
         <div className="container">
           <SectionHeading
             textAlign="center"
-            className="headline mb-[20px] max-w-[300px] mx-auto">
+            className="headline mb-[20px] max-w-[300px] mx-auto xs:mt-4">
             Embrace the future stack
           </SectionHeading>
           <Tabs
@@ -204,7 +199,7 @@ function EmbarkSection() {
                   <div className="font-bold text-22 leading-[32px] tracking-[-1px]  font-objectivity">
                     {s.title}
                   </div>
-                  <div className="text-16 leading-7 font-medium text-black opacity-60 mt-1 mb-3">
+                  <div className="text-16 leading-7 font-medium text-black opacity-60 mt-1 md:mb-3">
                     {s.text}
                   </div>
                   <img
@@ -212,7 +207,7 @@ function EmbarkSection() {
                     src={`/img/product-overview/stack-${s.key}.svg`}
                     width="343"
                     height="282"
-                    alt=""
+                    alt={s.title}
                     loading="lazy"
                   />
                 </div>

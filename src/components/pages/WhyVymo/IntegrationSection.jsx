@@ -28,7 +28,7 @@ function IntegrationSection() {
         </div>
       </div>
       <IntegrationSlider />
-      <div className="text-center mt-6 relative z-10">
+      <div className="text-center mt-4 md:mt-6 relative z-10">
         <Button className="xs:mb-4">See how Vymo can help</Button>
       </div>
       <img

@@ -12,7 +12,7 @@ import SEO from '../components/SEO';
 function WhyVymoPage() {
   return (
     <Layout>
-      <SEO title="Why Vymo" />
+      <SEO title="Why Vymo" description="Vymo is the fastest growing software market in the World (Gartner). Organizations are spending millions of dollars and many man-months in deployments each year."/>
       <HeroSection />
       <TransformingSection />
       <ModalVideo />

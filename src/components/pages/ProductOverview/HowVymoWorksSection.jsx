@@ -79,7 +79,7 @@ function HowVymoWorksSection() {
           yPercent: 0,
         },
         {
-          yPercent: -200,
+          yPercent: -190,
         },
       );
       return () => {
@@ -92,14 +92,14 @@ function HowVymoWorksSection() {
   }, []);
   return (
     <section
-      className="relative section-pad md:min-h-screen flex md:items-center how-works bg-lightWhite"
+      className="relative section-pad flex md:items-center how-works bg-lightWhite"
       ref={containerRef}>
       <div className="container">
         <SectionHeading className="md:mb-6 md:pb-[77px]">
           How Vymo works
         </SectionHeading>
-        <div className="hidden md:flex flex-row h-[384px] justify-center">
-          <div className="w-[45%] relative gradient-container h-[120%] overflow-hidden">
+        <div className="hidden md:flex flex-row h-[390px] justify-center">
+          <div className="w-[45%] relative gradient-container h-[115%] overflow-hidden">
             <div className="flex h-[60%] flex-col  item-container">
               {data.map((d) => (
                 <div
@@ -123,10 +123,10 @@ function HowVymoWorksSection() {
               <div className="bg-zinc-500 h-full w-full flex-shrink-0"></div> */}
             </div>
           </div>
-          <div className="w-[41.5%] relative image-container lg:-top-[20%]">
+          <div className="w-[41.5%] relative image-container lg:-top-[18%]">
             {data.map((d) => (
               <div className="h-full w-full pl-4 absolute" key={d.id}>
-                <img src={`/img/product-overview/${d.image}`} alt="" />
+                <img src={`/img/product-overview/${d.image}`} alt={d.text} />
               </div>
             ))}
           </div>
@@ -134,15 +134,15 @@ function HowVymoWorksSection() {
         <div className="flex md:hidden flex-col mt-5">
           {data.map((d) => (
             <div className="mb-4 last:mb-0" key={d.id}>
-              <div className="text-22 leading-8 font-objectivity tracking-[-1px] font-bold">
+              <div className="text-center text-22 leading-8 tracking-[-1px] font-bold mt-1">
                 <span style={{ color: d.color }}>0{d.id}.</span>{' '}
                 <span>{d.text}</span>
               </div>
               <div className="w-full relative mt-3" key={d.id}>
                 <img
                   src={`/img/product-overview/${d.image}`}
-                  alt=""
-                  className="h-full"
+                  alt={d.text}
+                  className="h-full mb-5"
                 />
               </div>
             </div>

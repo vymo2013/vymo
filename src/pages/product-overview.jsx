@@ -15,7 +15,7 @@ import SEO from '../components/SEO';
 function LeadManagementPage() {
   return (
     <Layout mainClassName="product-overvew">
-      <SEO title="Product Overview" />
+      <SEO title="Product Overview" description="Engineered to deliver Insights and interventions"/>
       <HeroSection />
       <section className="pb-[48px] md:pb-[80px]">
         <DeployedSection />
