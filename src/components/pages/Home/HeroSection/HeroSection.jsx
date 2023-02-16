@@ -273,7 +273,7 @@ function HeroSection() {
             </div>*/}
           </div>
         </div>
-        <div className="container">
+        <div className="container home">
           <div className="row overflow-hidden col-xs-12 logo-shw">
             <DeployedSection />
           </div>
