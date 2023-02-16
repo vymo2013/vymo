@@ -6,6 +6,7 @@ import ChallengesSection from '../components/pages/WhyVymo/ChallengesSection';
 import HeroSection from '../components/pages/WhyVymo/HeroSection';
 import IntegrationSection from '../components/pages/WhyVymo/IntegrationSection';
 import TransformingSection from '../components/pages/WhyVymo/TransformingSection/TransformingSection';
+import ModalVideo from '../components/pages/WhyVymo/VideoModal';
 import SEO from '../components/SEO';
 
 function WhyVymoPage() {
@@ -14,9 +15,11 @@ function WhyVymoPage() {
       <SEO title="Why Vymo" />
       <HeroSection />
       <TransformingSection />
+      <ModalVideo />
       <SalesEngagement />
       <IntegrationSection />
       <ChallengesSection />
+      
       {/*<DownloadSalesInsights />*/}
     </Layout>
   );

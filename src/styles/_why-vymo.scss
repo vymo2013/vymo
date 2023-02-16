@@ -152,7 +152,7 @@
   min-height:480px;
   border-radius: 22px;
   position:relative;
-  top:50px;
+  top:20px;
 }
 .video-ybtn{
   padding: 16px 60px;
@@ -173,4 +173,7 @@
 }
 .integration-slider-container .integration-card{
   background: #3A405A;
+}
+.logo-slider .logo-image{
+  left:0px!important;
 }

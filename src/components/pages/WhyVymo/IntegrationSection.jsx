@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import Button from '../../Button/Button';
 import SectionHeading from '../../Heading/SectionHeading';
 import IntegrationSlider from '../../Slider/IntegrationSlider';
+
 function IntegrationSection() {
   const { ref, inView, entry } = useInView({ triggerOnce: true });
   useEffect(() => {
