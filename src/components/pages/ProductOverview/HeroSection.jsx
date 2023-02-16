@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <section className="relative section-pad hero-section overflow-x-hidden">
       <div className="container mt-5 lg:mt-[0px]">
-        <div className="flex flex-wrap justify-between items-center px-[15px] lg:px-0 lg:mt-2 mb-4">
+        <div className="flex flex-wrap justify-between items-center px-[15px] lg:px-0 lg:mt-1 mb-4">
 
           {/*<div className="w-full lg:w-1/2 text-center lg:text-left lg:-mt-3"></div>*/}
 
