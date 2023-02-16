@@ -132,7 +132,7 @@ function Header({ dark }) {
                   to={l.path}
                   key={l.key}
                   className={`flex items-center text-[15px] font-medium	 ${
-                    l.multiple && 'nav-multiple'
+                    l.multiple && 'nav-multiple' 
                   }`}>
                   {/* <a> */}
                   <span className={`inline-block ${l.multiple && 'mr-1'}`}>
@@ -140,9 +140,10 @@ function Header({ dark }) {
                   </span>
                   {l.multiple && <Caret />}
                   {/* </a> */}
-                  
+
                 </Link>
               ))}
+
             </ul>
             <button
               onClick={navOpenTrigger}
