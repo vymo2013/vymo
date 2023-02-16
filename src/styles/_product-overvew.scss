@@ -1,4 +1,11 @@
 .product-overvew {
+  h1{
+    color:$text-black;
+  }
+
+  .font-light{
+    font-weight: 300;
+  }
   .how-works {
     .gradient-container::after {
       content: '';
@@ -14,6 +21,9 @@
         rgba(250, 250, 250, 1) 100%
       );
     }
+  }
+  .p-over-center{
+    text-align:center;
   }
   .embark-section {
     .headline::after {
@@ -123,5 +133,17 @@
       }
       // }
     }
+  }
+}
+@media(min-width: 768px){
+  .product-overvew .bg-vec{
+     background:url('/img/product-overview/p-vector2.webp');
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: bottom center;
+  /*   background-position-y: 10px;*/
+  }
+  .product-overvew .hero-section{
+    padding-bottom:80px;
   }
 }

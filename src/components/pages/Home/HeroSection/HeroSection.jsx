@@ -5,7 +5,7 @@ import './HeroSection.scss';
 
 function HeroSection() {
   return (
-    <section className="relative section-pad hero-section">
+    <section className="relative section-pad home-page hero-section">
       <div className="container box">
         <div className="w-full mx-auto">
           <p className="text-[20px] opacity-65 font-light mt-6 hidden md:block f-color">

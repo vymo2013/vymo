@@ -10,7 +10,7 @@ function ChallengesSection() {
   }, [inView]);
   return (
     <section
-      className="section-pad relative bg-lightWhite overflow-hidden fade-in"
+      className="section-pad relative bg-lightWhite overflow-hidden fade-in m-pad"
       ref={ref}>
       <div className="container">
         <div className="text-center  mb-[41px] md:mb-6">

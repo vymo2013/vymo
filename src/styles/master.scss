@@ -145,6 +145,9 @@ h4,
 h5 {
   letter-spacing: -1px;
 }
+h1 i, h2 i{
+  font-weight: 300;
+}
 
 
 p {
@@ -458,7 +461,7 @@ p {
   .m-pad{
     padding-top:40px !important;
     padding:25px;
-    padding-bottom: 40px;
+    padding-bottom: 40px !important;
   }
   .pd-40r{
     padding-right:0px !important;
@@ -537,7 +540,7 @@ p {
     margin-bottom:20px;
   }
   .m-font-head {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 40px !important;
     margin-top:40px;
   }
@@ -551,6 +554,12 @@ p {
   .xs\:mt-0{
     margin-top:0px;
   }
+  .xs\:pb-2{
+    padding-bottom: 20px;
+  }
+  .logo-slider .logo-image{
+    margin: 0 15px !important;
+  }
 }
 @media only screen and (min-width: 1500px) {
   .hero-section {
@@ -558,6 +567,9 @@ p {
   }
 }
 
+.text-center {
+    text-align: center;
+}
 
 .l-h40{
   line-height: 40px;

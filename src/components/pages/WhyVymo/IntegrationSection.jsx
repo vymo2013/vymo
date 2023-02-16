@@ -21,7 +21,7 @@ function IntegrationSection() {
             </h3>
           </div>
           <div className="col-md col-12">
-            <p className="text-18 opacity-60 text-center font-medium mt-2 text-white">
+            <p className="text-18 opacity-60 text-center font-medium mt-2 md:mb-0 text-white">
               Get up and running in months weeks!
             </p>
           </div>

@@ -41,7 +41,7 @@ export class Modal extends Component {
                  <a href="#!" className="img-hv md:hidden" onClick={this.openModal}><img src="/img/why/future-of-software.webp" width="100%" alt="the future of sales"/></a>
               </div>
             </div>
-            <div className="lg:pt-2 pb-6 mb-4">
+            <div className="lg:pt-2 pb-6 mb-4 xs:pb-2">
               <p className="text-16 md:text-18 font-medium text-center md:my-4 lg:mt-6 lg:mb-4">
                 Trusted by the World’s leading Financial Institutions
               </p>
