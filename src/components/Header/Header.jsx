@@ -99,6 +99,22 @@ function Header({ dark }) {
       window.removeEventListener('resize', resizeListener);
     };
   }, [openNav]);
+
+   // Sticky Menu Area
+    useEffect(() => {
+        window.addEventListener('scroll', isSticky);
+        return () => {
+            window.removeEventListener('scroll', isSticky);
+        };
+    });
+           
+    /* Method that will fix header after a specific scrollable */
+     const isSticky = (e) => {
+          const header = document.querySelector('.header-main');
+          const scrollTop = window.scrollY;
+          scrollTop >= 250 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+      };
+      
   return (
     <header>
       <div className={`header-main ${!dark ? 'light' : ''}`}>

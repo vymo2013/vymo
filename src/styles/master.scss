@@ -580,6 +580,18 @@ p {
 .text-center {
     text-align: center;
 }
+.is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 14px 0 rgb(0 0 0 / 10%);
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 1s normal none 1 running fadeInUp;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
 
 .l-h40{
   line-height: 40px;
