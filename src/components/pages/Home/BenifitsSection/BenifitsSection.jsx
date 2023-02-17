@@ -13,7 +13,7 @@ function BenifitsSection() {
   }, [inView]);
   return (
     <section
-      className="benifits-section relative fade-in"
+      className="benifits-section relative"
       ref={ref}>
       <div className="box section-pad pb-80">
         <div className="container">

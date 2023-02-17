@@ -147,7 +147,7 @@ function TransformingSection() {
   }, [inView]);
   return (
   
-    <section className="relative why-transforming-section fade-in" ref={ref}>
+    <section className="relative why-transforming-section" ref={ref}>
       <div className="container">
         <h2 className="mb-5 md:mb-6 text-48 font-light text-center leading-[64px] m-font-head">
           <span className="font-bold">Transforming data into</span> <span className="d-bck"><i>intelligent insights</i></span>
