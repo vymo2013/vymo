@@ -571,6 +571,11 @@ p {
     padding-top:0px;
   }
 }
+@media(min-width: 900px){
+  .main-footer .md\:flex-1:nth-child(4) {
+      padding-right:18px;
+  }
+}
 @media only screen and (min-width: 1500px) {
   .hero-section {
       background-position: 230px 200px;
@@ -589,8 +594,8 @@ p {
     box-shadow: 0 2px 14px 0 rgb(0 0 0 / 10%);
     background-color: #ffffff !important;
     animation: 500ms ease-in-out 1s normal none 1 running fadeInUp;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 .l-h40{
