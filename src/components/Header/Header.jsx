@@ -112,7 +112,7 @@ function Header({ dark }) {
      const isSticky = (e) => {
           const header = document.querySelector('.header-main');
           const scrollTop = window.scrollY;
-          scrollTop >= 250 ? header.classList.add('is-sticky') : header.classList.remove('is-sticky');
+          scrollTop >= 250 ? header.classList.add('sticky') : header.classList.remove('sticky');
       };
       
   return (
