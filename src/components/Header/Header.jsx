@@ -114,7 +114,6 @@ function Header({ dark }) {
           const scrollTop = window.scrollY;
           scrollTop >= 250 ? header.classList.add('sticky') : header.classList.remove('sticky');
       };
-      
   return (
     <header>
       <div className={`header-main ${!dark ? 'light' : ''}`}>
@@ -145,6 +144,7 @@ function Header({ dark }) {
               ))}
 
             </ul>
+
             <button
               onClick={navOpenTrigger}
               className={`hamburger inline-flex xl:hidden justify-center items-end flex-col w-5 h-5 relative z-50 ${
