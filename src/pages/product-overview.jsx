@@ -17,7 +17,7 @@ function LeadManagementPage() {
     <Layout mainClassName="product-overvew">
       <SEO title="Product Overview" description="Engineered to deliver Insights and interventions"/>
       <HeroSection />
-      <section className="pb-[48px] md:pb-[80px]">
+      <section className="pb-[48px] md:pb-[90px]">
         <DeployedSection />
       </section>
       <HowVymoWorksSection />

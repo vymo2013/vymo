@@ -27,31 +27,26 @@ const Links = [
     submenu: [
       { 
         id: 1,
-        key: 'nav-multiple',
         text: 'Lead Management',
         path: '/lead-management',
       },
       {
         id: 2,
-        key: 'nav-multiple',
         text: 'Activity Management',
         path: '#!',
       },
       {
         id: 3,
-        key: 'nav-multiple',
         text: 'Partner Engagement',
         path: '#!',
       },
       {
         id: 4,
-        key: 'nav-multiple',
         text: 'Remote Engagement',
         path: '#!',
       },
       {
         id: 5,
-        key: 'nav-multiple',
         text: 'Sales Enablement',
         path: '#!',
       },
@@ -144,7 +139,7 @@ function Header({ dark }) {
               ))}
 
             </ul>
-
+            
             <button
               onClick={navOpenTrigger}
               className={`hamburger inline-flex xl:hidden justify-center items-end flex-col w-5 h-5 relative z-50 ${

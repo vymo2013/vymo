@@ -9,7 +9,7 @@ const brandAssets = [
     description:
       'Digital Transformation Leader, Deepak Keni, joins Vymo as Chief Customer Officer to drive Sales & Distribution Excellence in...',
 
-    downloadText: 'Download',
+    downloadText: 'Download Assets',
     downloadLink: '#!',
     imgClassName: 'w-full',
   },
@@ -20,7 +20,7 @@ const brandAssets = [
     title: 'Leadership Photos',
     description:
       'Digital Transformation Leader, Deepak Keni, joins Vymo as Chief Customer Officer to drive Sales & Distribution Excellence in...',
-    downloadText: 'Download',
+    downloadText: 'Download Assets',
     downloadLink: '#!',
     imgClassName: 'w-full',
   },
@@ -31,7 +31,7 @@ const brandAssets = [
     title: 'Our people and offices',
     description:
       'Digital Transformation Leader, Deepak Keni, joins Vymo as Chief Customer Officer to drive Sales & Distribution Excellence in...',
-    downloadText: 'Download',
+    downloadText: 'Download Assets',
     downloadLink: '#!',
     imgClassName: 'w-full',
   },

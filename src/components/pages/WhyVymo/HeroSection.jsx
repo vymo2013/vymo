@@ -27,7 +27,7 @@ function HeroSection() {
             <h1 className="text-36 md:text-60 tracking-[-2px] leading-[44px] md:leading-[68px] font-light mt-3">
                <span className="font-bold">Conventional CRMs </span><span className="d-bck"><span className="font-bold"> are</span> <i>insufficient</i> </span>
             </h1>
-            <p className="text-black text-18 md:text-18 mt-2 font-medium opacity-60 mb-1 md:mb-[25px] w-full lg:w-4/5">
+            <p className="text-black text-18 md:text-18 mt-2 font-medium opacity-90 mb-1 md:mb-[25px] w-full lg:w-4/5">
               What you need is an intelligent sales frontend that helps you drive interventions across the customer lifecycle to improve outcomes.
             </p>
             <a href="#!" target="_blank"><Button className="red-btn">See how Vymo can help</Button></a>

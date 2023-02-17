@@ -27,7 +27,8 @@ function LeadManagementPage() {
       <AllocationSection />
       {/* <LittleMoreSection /> */}
       <ContactSection />
-      <SalesEngagement title="Vymo’s accuracy of matching leads to the best fit rep has been >90%, based on multiple customer deployments." />
+      {/*<SalesEngagement title="Vymo’s accuracy of matching leads to the best fit rep has been >90%, based on multiple customer deployments." />*/}
+      <SalesEngagement />
       <GetStartedSection />
     </Layout>
   );
