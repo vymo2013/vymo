@@ -7,6 +7,7 @@ import HeroSection from '../components/pages/WhyVymo/HeroSection';
 import IntegrationSection from '../components/pages/WhyVymo/IntegrationSection';
 import TransformingSection from '../components/pages/WhyVymo/TransformingSection/TransformingSection';
 import ModalVideo from '../components/pages/WhyVymo/VideoModal';
+import GetStartedSection from '../components/sections/GetStartedSection/GetStartedSection';
 import SEO from '../components/SEO';
 
 function WhyVymoPage() {
@@ -19,7 +20,7 @@ function WhyVymoPage() {
       <SalesEngagement />
       <IntegrationSection />
       <ChallengesSection />
-      
+      <GetStartedSection />
       {/*<DownloadSalesInsights />*/}
     </Layout>
   );
