@@ -248,7 +248,7 @@ function Footer({ dark }) {
                       href={sl.link}
                       className={`text-14 font-medium ${
                         dark ? 'text-white' : 'text-black'
-                      } opacity-50 hover:opacity-80`}>
+                      } opacity-60 hover:opacity-90`}>
                       {sl.title}
                     </a>
                   </li>
@@ -267,7 +267,7 @@ function Footer({ dark }) {
             className={`order-3 md:order-2 w-full md:w-auto flex ${
               dark ? 'text-white' : 'text-black'
             } text-14 privacy-link-container justify-between py-5 mt-[36px] md:mt-0 md:py-0 items-center`}>
-            <div className="opacity-60 md:ml-0">
+            <div className="opacity-70 md:ml-0">
               © Vymo {new Date().getFullYear()}
             </div>
             <a href="/privacy-policy" className="md:ml-4">
@@ -278,7 +278,7 @@ function Footer({ dark }) {
             </a>
           </div>
           <div className="order-2 md:order-3 w-auto flex flex-row">
-            <a href="#!" className="hover:opacity-80">
+            <a href="https://twitter.com/getvymo" target="_blank" className="hover:opacity-80">
               <img
                 src="/img/icons/twitter.svg"
                 alt=""
@@ -286,25 +286,27 @@ function Footer({ dark }) {
                 height="34px"
               />
             </a>
-            <a href="#!" className="hover:opacity-80 ml-2">
+            {/*<a href="#!" className="hover:opacity-80 ml-2">
               <img
                 src="/img/icons/facebook.svg"
                 alt=""
                 width="34px"
                 height="34px"
               />
-            </a>
-            <a href="#!" className="hover:opacity-80 ml-2">
+            </a>*/}
+            
+            <a href="https://www.youtube.com/@VymoInc" className="hover:opacity-80 ml-2" target="_blank">
               <img
-                src="/img/icons/linkedin.svg"
+                src="/img/icons/youtube.png"
                 alt=""
-                width="34px"
-                height="34px"
+                width="36px"
+                height="36px"
               />
             </a>
-            <a href="#!" className="hover:opacity-80 ml-2">
+
+            <a href="linkedin.com/company/vymo/" className="hover:opacity-80 ml-2" target="_blank">
               <img
-                src="/img/icons/instagram.svg"
+                src="/img/icons/linkedin.svg"
                 alt=""
                 width="34px"
                 height="34px"

@@ -59,7 +59,8 @@ body {
   }
 }
 .header-main .header-action{
-  background-color:#000;
+  background-color:#17171C;
+  border-radius: 4px;
   border:1px solid #fff;
   transition: all .2s ease-in-out;
 }
@@ -76,7 +77,7 @@ body {
 .header-main .header-action:hover{
   background-color:#fff;
   color: #000;
-  border:1px solid #000;
+  border:1px solid #17171C;
   transform: scale(1.01);
 }
 .img-hv:hover{
