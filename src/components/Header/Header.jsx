@@ -9,59 +9,59 @@ import './Header.scss';
 const Links = [
   {
     key: 'nav-l-1',
-    path: '/why-vymo',
-    text: 'Why Vymo',
+    url: '/why-vymo',
+    title: 'Why Vymo',
     multiple: false,
   },
   {
     key: 'nav-l-2',
-    path: '/product-overview',
-    text: 'Product',
+    url: '/product-overview',
+    title: 'Product',
     multiple: false,
   },
   {
     key: 'nav-l-3',
-    path: '#!',
-    text: 'Solutions',
+    url: '#!',
+    title: 'Solutions',
     multiple: true,
     submenu: [
       { 
         id: 1,
-        text: 'Lead Management',
-        path: '/lead-management',
+        title: 'Lead Management',
+        url: '/lead-management',
       },
       {
         id: 2,
-        text: 'Activity Management',
-        path: '#!',
+        title: 'Activity Management',
+        url: '#!',
       },
       {
         id: 3,
-        text: 'Partner Engagement',
-        path: '#!',
+        title: 'Partner Engagement',
+        url: '#!',
       },
       {
         id: 4,
-        text: 'Remote Engagement',
-        path: '#!',
+        title: 'Remote Engagement',
+        url: '#!',
       },
       {
         id: 5,
-        text: 'Sales Enablement',
-        path: '#!',
+        title: 'Sales Enablement',
+        url: '#!',
       },
     ],
   },
   {
     key: 'nav-l-4',
-    path: '/resources',
-    text: 'Resources',
+    url: '/resources',
+    title: 'Resources',
     multiple: false,
   },
   {
     key: 'nav-l-5',
-    path: '/about',
-    text: 'About',
+    url: '/about',
+    title: 'About',
     multiple: false,
   },
 ];
@@ -123,23 +123,23 @@ function Header({ dark }) {
             <ul className={`nav-list ${openNav ? 'show' : ''}`}>
               {Links.map((l) => (
                 <Link
-                  to={l.path}
+                  to={l.url}
                   key={l.key}
                   className={`flex items-center text-[15px] font-medium	 ${
                     l.multiple && 'nav-multiple' 
                   }`}>
                   {/* <a> */}
                   <span className={`inline-block ${l.multiple && 'mr-1'}`}>
-                    {l.text}
+                    {l.title}
                   </span>
                   {l.multiple && <Caret />}
                   {/* </a> */}
-
+                  
                 </Link>
               ))}
 
             </ul>
-            
+
             <button
               onClick={navOpenTrigger}
               className={`hamburger inline-flex xl:hidden justify-center items-end flex-col w-5 h-5 relative z-50 ${
