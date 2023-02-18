@@ -15,7 +15,7 @@ import SEO from '../components/SEO';
 function IndexPage() {
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Sales Engagement Platform for Financial Institutions" />
       <HeroSection />
       <BenifitsSection />
       <SalesDetailsSection />

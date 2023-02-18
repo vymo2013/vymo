@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: 'Vymo',
     description:
-      'Sales Engagement Platform of choice for leading Financial Institutions. Used by 250k+ salespeople across 65+ enterprises such as Berkshire Hathaway, Sunlife, BNP Paribas, AXA, AIA.',
+      'Sales Engagement Platform of choice for leading Financial Institutions. Used by 300k+ salespeople across 65+ enterprises such as Berkshire Hathaway, Sunlife, BNP Paribas, AXA, AIA.',
     author: 'Vymo',
   },
   plugins: [
