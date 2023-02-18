@@ -8,7 +8,7 @@ function HeroSection() {
     <section className="relative section-pad home-page hero-section">
       <div className="container box">
         <div className="w-full mx-auto">
-          <p className="text-[20px] opacity-65 font-light mt-6 hidden md:block f-color">
+          <p className="text-[20px] opacity-65 font-light mt-6 hidden md:block f-color lg:mb-1">
             Give your sales teams and leadership visibility and control.
           </p>
           <h1 className="text-32 md:text-64 hidden md:block mb-1 mx-0">
