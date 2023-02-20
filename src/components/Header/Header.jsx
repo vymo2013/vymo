@@ -138,7 +138,7 @@ function Header({ dark }) {
 
                   {l.multiple == true &&
                      <ul className="dropdown-menu">
-                        <li className="dropdown-header"><a href="lead-management">Lead Management</a></li>
+                        <li className="dropdown-header"><a href="/lead-management">Lead Management</a></li>
                         <li className="dropdown-header"><a href="/vymo-for-salesforce">Vymo for Salesforce</a></li>
                         <li className="dropdown-header"><a href="/activity-management">Activity Management</a></li>
                         <li className="dropdown-header"><a href="/relationship-management">Relationship Management</a></li>
