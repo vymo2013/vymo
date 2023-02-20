@@ -7,7 +7,7 @@ function HeroSection() {
 
     <section className="relative hero-section">
       <div className="container mt-3 lg:mt-[0px]">
-        <div className="row mt-6">
+        <div className="row mt-2 lg:mt-2 lg:mb-6 pt-4 pb-2">
 
           <div className="w-full md:w-1/2 relative mt-6 lg:mt-6 pt-4">
             <h1 
