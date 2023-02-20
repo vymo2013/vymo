@@ -160,7 +160,7 @@ function Header({ dark }) {
               <span></span>
               <span></span>
             </button>
-            <Button className="header-action">Book Demo</Button>
+            <a href="book-a-demo"><Button className="header-action">Book Demo</Button></a>
           </div>
         </div>
       </div>
