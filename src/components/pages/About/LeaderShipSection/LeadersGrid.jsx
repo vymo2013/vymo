@@ -19,11 +19,11 @@ const leaders = [
   },
   {
     id: 3,
-    name: 'Harish Vaidyanathan',
-    designation: 'VP Product',
-    img: 'harish.png',
-    width: '440px',
-    height: '468px',
+    name: 'Rajesh Sabhlok',
+    designation: 'MD – Asia Pacific & Japan',
+    img: 'rajesh.png',
+    width: '410px',
+    height: '446px',
   },
   {
     id: 4,
@@ -32,14 +32,6 @@ const leaders = [
     img: 'roshan.png',
     width: '411px',
     height: '465px',
-  },
-  {
-    id: 5,
-    name: 'Rajesh Sabhlok',
-    designation: 'MD – Asia Pacific & Japan',
-    img: 'rajesh.png',
-    width: '410px',
-    height: '446px',
   },
 ];
 function LeadersGrid() {

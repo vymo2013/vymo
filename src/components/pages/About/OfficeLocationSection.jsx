@@ -31,11 +31,11 @@ const locations = [
     location: 'Bangalore',
     address: '6391 Elgin St. Celina, Delaware 10299',
   },
-  {
-    id: 7,
-    location: 'Remote',
-    address: null,
-  },
+  // {
+  //   id: 7,
+  //   location: 'Remote',
+  //   address: null,
+  // },
 ];
 function OfficeLocationSection() {
   const { ref, inView, entry } = useInView({ triggerOnce: true });
