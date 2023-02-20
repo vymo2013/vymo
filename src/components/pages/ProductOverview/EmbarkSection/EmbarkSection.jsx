@@ -147,7 +147,7 @@ function EmbarkSection() {
                     <div className="lineprogress" ref={lineRef}></div>
                   </div>
                   <div className="text-14 leading-[21px] font-medium mt-1">
-                    05
+                    04
                   </div>
                 </div>
                 <div className="h-[343px] w-[380px] ml-4.5">
