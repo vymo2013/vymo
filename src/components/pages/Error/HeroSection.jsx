@@ -16,7 +16,7 @@ function HeroSection() {
             </h1>
 
             <p className="text-left text-darkPurple font-normal leading-5 md:leading-7 mt-3 mb-3 mx-auto md:text-18">
-              The page you are looking for no longer exists. Return to the <span className="d-bck"><a href="/" className="text-underline">Home Page</a> and remember: you have not seen anything.</span>
+              The page you are looking for no longer exists. Return to the <span className="d-bck"><a href="/" className="text-underline">home page</a> and remember: you have not seen anything.</span>
             </p>
 
             <a href="/"><Button className="mt-1 md:mt-2 started-btn red-btn">
