@@ -687,6 +687,10 @@ p {
 .marquee-slider {
   transition-timing-function: linear;
 }
+.text-underline{
+  text-decoration: underline;
+  text-underline-position: under;
+}
 .sales-detail-cards {
   flex-wrap: wrap;
   .sales-card {

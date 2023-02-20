@@ -1,14 +1,14 @@
-import * as React from 'react';
-
-import Layout from '../components/Layout';
+import React from 'react';
+import HeroSection from '../components/pages/Error/HeroSection';
 import SEO from '../components/SEO';
 
-const NotFoundPage = () => (
-  <Layout>
-    <SEO title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
-);
+function ErrorPage() {
+  return (
+    <section>
+      <SEO title="404" />
+      <HeroSection />
+    </section>
+  );
+}
 
-export default NotFoundPage;
+export default ErrorPage;
