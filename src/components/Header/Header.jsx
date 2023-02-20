@@ -21,10 +21,10 @@ const Links = [
   },
   {
     key: 'nav-l-3',
-    url: '#!',
+    url: 'javascript:void(0);',
     title: 'Solutions',
     multiple: true,
-    submenu: [
+    Submenu: [
       { 
         id: 1,
         title: 'Lead Management',
@@ -132,12 +132,22 @@ function Header({ dark }) {
                   <span className={`inline-block ${l.multiple && 'mr-1'}`}>
                     {l.title}
                   </span>
-                  {l.multiple && <Caret />}
+                  {l.multiple && <Caret/>}
+
                   {/* </a> */}
-                  
+
+                  {l.multiple == true &&
+                     <ul className="dropdown-menu">
+                        <li className="dropdown-header"><a href="lead-management">Lead Management</a></li>
+                        <li className="dropdown-header"><a href="/vymo-for-salesforce">Vymo for Salesforce</a></li>
+                        <li className="dropdown-header"><a href="/activity-management">Activity Management</a></li>
+                        <li className="dropdown-header"><a href="/relationship-management">Relationship Management</a></li>
+                        <li className="dropdown-header"><a href="/partner-engagement">Partner Engagement</a></li>
+                        <li className="dropdown-header"><a href="/remote-sales">Remote Sales</a></li>
+                    </ul>
+                  }
                 </Link>
               ))}
-
             </ul>
 
             <button
