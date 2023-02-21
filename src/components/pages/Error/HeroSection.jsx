@@ -9,13 +9,13 @@ function HeroSection() {
       <div className="container mt-3 lg:mt-[0px]">
         <div className="row mt-2 lg:mt-2 lg:mb-2 pt-4 pb-2 mb-4">
 
-          <div className="w-full md:w-1/2 relative mt-6 lg:mt-6 pt-4">
+          <div className="w-full md:w-1/2 relative mt-4 lg:mt-6 pt-4 mb-6">
             <h1 
               className="text-left mx-auto text-32 leading-[44px] md:text-60 lg:mt-4 pt-6 font-iight md:leading-[68px]">
               <span className="font-bold">Ooops! You weren't supposed</span> <i> to see this</i>
             </h1>
 
-            <p className="text-left text-darkPurple font-normal leading-5 md:leading-7 mt-3 mb-3 mx-auto md:text-18">
+            <p className="text-left text-darkPurple font-normal leading-7 md:leading-7 mt-3 mb-3 mx-auto md:text-18">
               The page you are looking for no longer exists. Return to the <span className="d-bck"><a href="/" className="text-underline">home page</a> and remember: you have not seen anything.</span>
             </p>
 
