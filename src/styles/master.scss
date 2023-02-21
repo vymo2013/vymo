@@ -626,6 +626,9 @@ p {
   .main-footer .md\:flex-1:nth-child(4) {
       padding-right:18px;
   }
+  .hamburger{
+    right:-95px;
+  }
 }
 @media only screen and (min-width: 1500px) {
   .hero-section {
