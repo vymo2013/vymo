@@ -446,6 +446,11 @@ p {
 .btn-pers svg path{
   fill: #000;
 }
+@media (min-width: 768px){
+  .md\:text-56 {
+      font-size: 56px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .p-box-bg1{
      background:url('/img/personal2.webp');
@@ -597,9 +602,6 @@ p {
   .xs\:pb-2{
     padding-bottom: 20px;
   }
-  .logo-slider .logo-image{
-    margin: 0 15px !important;
-  }
   .xs\:mt-4{
     margin-top:40px;
   }
@@ -627,10 +629,7 @@ p {
   .error-page .d-bck{
     display: initial !important;
   }
-  .hamburger{
-    right: 0px;
-    position: absolute;
-  }
+  
 }
 @media(min-width: 900px){
   .main-footer .md\:flex-1:nth-child(4) {
@@ -704,9 +703,7 @@ p {
   text-decoration: underline;
   text-underline-position: under;
 }
-.text-56{
-  font-size: 56px;
-}
+
 .sales-detail-cards {
   flex-wrap: wrap;
   .sales-card {

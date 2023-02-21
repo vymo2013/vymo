@@ -151,3 +151,9 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+@media (max-width: 1280px) {
+  .hamburger{
+    right: 0px;
+    position: absolute !important;
+  }
+}
