@@ -628,7 +628,8 @@ p {
     display: initial !important;
   }
   .hamburger{
-    right:-95px;
+    right: 0px;
+    position: absolute;
   }
 }
 @media(min-width: 900px){
