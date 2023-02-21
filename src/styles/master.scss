@@ -604,6 +604,9 @@ p {
   .xs\:mb-4{
      margin-bottom: 40px;
   }
+  .xs\:mt-2{
+    margin-top:20px;
+  } 
   .xs\:mt-0{
     margin-top:0px;
   }
@@ -636,6 +639,9 @@ p {
   }
   .error-page .d-bck{
     display: initial !important;
+  }
+  .md\:text-20{
+    font-size: 16px !important;
   }
   
 }
