@@ -5,9 +5,9 @@ import SectionHeading from '../../Heading/SectionHeading';
 function HeroSection() {
   return (
 
-    <section className="relative hero-section">
+    <section className="relative hero-section error-page">
       <div className="container mt-3 lg:mt-[0px]">
-        <div className="row mt-2 lg:mt-2 lg:mb-6 pt-4 pb-2">
+        <div className="row mt-2 lg:mt-2 lg:mb-2 pt-4 pb-2 mb-4">
 
           <div className="w-full md:w-1/2 relative mt-6 lg:mt-6 pt-4">
             <h1 

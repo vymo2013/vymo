@@ -621,14 +621,21 @@ p {
   .header-main .dropdown-menu li{
     padding:2px 15px;
   }
+  .error-page{
+    padding:20px !important;
+  }
+  .error-page .d-bck{
+    display: initial !important;
+  }
+  .hamburger{
+    right:-95px;
+  }
 }
 @media(min-width: 900px){
   .main-footer .md\:flex-1:nth-child(4) {
       padding-right:18px;
   }
-  .hamburger{
-    right:-95px;
-  }
+
 }
 @media only screen and (min-width: 1500px) {
   .hero-section {
