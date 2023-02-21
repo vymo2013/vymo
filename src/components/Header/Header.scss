@@ -47,7 +47,7 @@
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
-      transition: 0.2s opacity ease-out;
+      //transition: 0.2s opacity ease-out;
 
       &.show {
         opacity: 1;
@@ -152,8 +152,17 @@
   transform-origin: bottom left;
 }
 @media (max-width: 1280px) {
-  .hamburger{
-    right: 0px;
-    position: absolute !important;
+  .nav-list .header-action{
+    display: block;
+    padding: 8px 14px;
+    border:0px !important;
+    font-size:16px;
+  }
+  .header-main .nav-list{
+    padding:63px;
+    padding-top: 95px;
+  }
+  .header-main .nav-list.show a{
+    font-size: 16px;
   }
 }

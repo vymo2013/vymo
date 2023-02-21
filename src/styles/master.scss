@@ -83,13 +83,13 @@ body {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border-radius: 0px;
-    -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
-    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    -webkit-box-shadow: 0 3px 18px rgb(0 0 0 / 5%);
+    box-shadow: 0 3px 18px rgb(0 0 0 / 5%);
 }
 
 .header-main .dropdown-menu li{
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
     text-align: left;
     padding:3px 15px;
@@ -126,6 +126,7 @@ body {
   transform: scale(1.02);
   transition: all .2s ease-in-out;
 }
+
 @media (min-width: 1024px){
   .lg\:h-\[0\%\] {
       height: auto !important;
@@ -360,7 +361,7 @@ p {
 .section-pad {
   padding: 100px 0;
   @media (max-width: 767px) {
-    padding: 60px 0;
+    padding: 70px 0;
   }
 }
 .h3-text{
@@ -495,7 +496,17 @@ p {
     width: 180px;
   }
   .grid-cols-4 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .benifits-section .benifit-card h3{
+    font-size: 40px !important;
+  }
+  .m-height{
+    min-height:30px;
+  }
+  .imh {
+    width: 25px;
+    padding-left: 8px;
   }
   .benifit-card{
     margin:20px auto;
@@ -517,8 +528,8 @@ p {
     font-size: 14px;
   }
   .logo-shw{
-    padding:40px;
     padding-top:0px;
+    padding-bottom: 30px;
   }
   .hero-section .client-card:nth-child(2) {
     margin-right: 15px !important;
@@ -531,6 +542,8 @@ p {
   }
   .yell-btn{
     padding-bottom: 30px;
+    text-align: center;
+    display: block;
   }
   .m-hiiden, .product-overvew .embark-section .headline::after{
     display: none;
@@ -568,12 +581,7 @@ p {
   .section-pad{
     padding-bottom: 20px;
   }
-  .header-main .nav-list{
-    padding-top: 100px;
-  }
-  .header-main .nav-list.show a{
-    font-size: 18px;
-  }
+
   .get-started-section img{
     margin-top:-5px !important;
   }

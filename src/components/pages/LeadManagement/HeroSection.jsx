@@ -8,7 +8,7 @@ function HeroSection() {
         <div className="flex flex-wrap justify-between items-center px-[15px] xl:px-0 m-pt-4">
           <div className="w-full xl:w-[55%] xl:-mt-3 lg:pt-5 text-center lg:text-left self-center">
             <h1
-              className="mx-auto text-32 md:text-56 leading-[38px] lg:mt-1 font-iight md:leading-[68px]">
+              className="mx-auto text-36 md:text-56 leading-[38px] lg:mt-1 font-iight md:leading-[68px]">
               <span className="font-bold">Convert</span> <i>more leads to customers,</i> <span className="font-bold">predictably</span>.
             </h1>
             <p className="text-darkPurple font-medium leading-5 md:leading-7 mt-2 leading-[28px]">

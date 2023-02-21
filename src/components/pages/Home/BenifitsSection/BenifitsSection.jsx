@@ -47,7 +47,7 @@ function BenifitsSection() {
           <div className="row relative z-10 smt-2 p-1">
               <div className="grid grid-cols-4 col-12 mb-4 mt-3">
                 <div className="py-2 rounded-2xl benifit-card h-full">
-                  <div className="w-full">
+                  <div className="w-full m-height">
                     <img src="/img/logo/hdfc-bank.png" alt="HDFC Bank" width="135px" height="24px" />
                   </div>
                   <h3 className="mt-2 lg:mt-[35px] text-48 lg:text-60 text-white tracking-[-3px] md:tracking-[-2px] leading-[60px]">
@@ -59,7 +59,7 @@ function BenifitsSection() {
                 </div>
 
                 <div className="py-2 rounded-2xl benifit-card h-full">
-                  <div className="w-full">
+                  <div className="w-full m-height">
                     <img src="/img/logo/sun-life.png" alt="Sun Life" width="127px" height="31px" />
                   </div>
                   <h3 className="mt-2 lg:mt-[35px] text-48 lg:text-60 text-white tracking-[-3px] md:tracking-[-2px] leading-[60px]">
@@ -71,7 +71,7 @@ function BenifitsSection() {
                 </div>
 
                 <div className="py-2 rounded-2xl benifit-card h-full">
-                  <div className="w-full">
+                  <div className="w-full m-height">
                     <img src="/img/fe-credit.png" alt="FE Credit" width="108px" height="26px" />
                   </div>
                   <h3 className="mt-2 lg:mt-[35px] text-48 lg:text-60 text-white tracking-[-3px] md:tracking-[-2px] leading-[60px]">
@@ -83,7 +83,7 @@ function BenifitsSection() {
                 </div>
 
                 <div className="py-2 rounded-2xl benifit-card h-full">
-                  <div className="w-full">
+                  <div className="w-full m-height">
                     <img src="/img/bnp.png" alt="BNP Paribas" width="141px" height="30px" />
                   </div>
                   <h3 className="mt-2 lg:mt-[35px] text-48 lg:text-60 text-white tracking-[-3px] md:tracking-[-2px] leading-[60px]">

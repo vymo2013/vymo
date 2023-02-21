@@ -117,9 +117,11 @@ function Header({ dark }) {
             className={`flex flex-row justify-between items-center header-container ${
               openNav ? 'show' : ''
             }`}>
+
             <Link to="/" style={{ zIndex: 1 }}>
               <VymoLogo dark={openNav && !dark ? true : dark} />
             </Link>
+            
             <ul className={`nav-list ${openNav ? 'show' : ''}`}>
               {Links.map((l) => (
                 <Link
@@ -148,7 +150,10 @@ function Header({ dark }) {
                   }
                 </Link>
               ))}
+              <a href="book-a-demo" className="flex items-center text-[15px] font-medium false md:hidden"><Button className="header-action">Book Demo</Button></a>
             </ul>
+            
+            <a href="book-a-demo"><Button className="header-action">Book Demo</Button></a>
 
             <button
               onClick={navOpenTrigger}
@@ -160,7 +165,6 @@ function Header({ dark }) {
               <span></span>
               <span></span>
             </button>
-            <a href="book-a-demo"><Button className="header-action">Book Demo</Button></a>
           </div>
         </div>
       </div>
