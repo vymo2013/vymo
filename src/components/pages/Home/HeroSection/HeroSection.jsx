@@ -12,7 +12,7 @@ function HeroSection() {
             Give your sales teams and leadership visibility and control.
           </p>
           <h1 className="text-32 md:text-64 hidden md:block mb-1 mx-0">
-            <span className="font-bold">Drive</span><i> sales productivity</i>. <span className="font-bold d-bck">Bottom up</span>
+            <span className="font-bold">Drive</span><i> sales productivity</i>. <span className="font-bold d-bck">Bottom up.</span>
           </h1>
           
           <p className="text-16 opacity-90 text-center font-medium mt-6 mb-1 block md:hidden">
