@@ -11,7 +11,7 @@ function HeroSection() {
               className="mx-auto text-36 md:text-56 leading-[38px] lg:mt-1 font-iight md:leading-[68px]">
               <span className="font-bold">Convert</span> <i>more leads to customers,</i> <span className="font-bold">predictably</span>.
             </h1>
-            <p className="text-darkPurple font-medium text-16 md:text-18 leading-5 md:leading-7 mt-2 leading-[28px] opacity-80">
+            <p className="text-darkPurple font-medium text-16 md:text-16 leading-5 md:leading-7 mt-2 leading-[28px] opacity-80">
               Take control of your entire lead lifecycle with Vymo’s Lead Management System. wSet up complex Lead Workflows for different types of leads and channels, gamify your Sales Playbook, and integrate your sales funnel so your lead progresses through your funnel hassle-free.
               {/*<span className="block mt-2">
                 Set up complex Lead Workflows for different types of leads and

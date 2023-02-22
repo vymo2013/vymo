@@ -50,7 +50,7 @@ function WatchInAction() {
         </div>
 
         <div className="text-center">
-          <Button large href="#!">
+          <Button href="#!">
             Get Started now
           </Button>
         </div>

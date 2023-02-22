@@ -14,7 +14,7 @@ function HowWeCanHelp() {
           </div>
           <div className="col col-4">
             <div className="text-center md:text-right">
-              <Button large href="#!">
+              <Button href="#!">
                 Learn more here
               </Button>
             </div>

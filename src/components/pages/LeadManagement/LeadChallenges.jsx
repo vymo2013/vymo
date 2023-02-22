@@ -10,7 +10,7 @@ const tabs = [
       <img
         className="w-full mt-3 lg:mb-4"
         src="/img/lead-management/delayed-allocation.png"
-        alt=""
+        alt="Delayed Allocation"
         width="619"
         height="400"
       />
@@ -23,7 +23,7 @@ const tabs = [
       <img
         className="w-full mt-3 lg:mb-4"
         src="/img/lead-management/delayed-allocation.png"
-        alt=""
+        alt="Suboptimal Allocation"
         width="619"
         height="400"
       />
@@ -36,7 +36,7 @@ const tabs = [
       <img
         className="w-full mt-3 lg:mb-4"
         src="/img/lead-management/delayed-allocation.png"
-        alt=""
+        alt="Inefficient Nature"
         width="619"
         height="400"
       />
@@ -78,16 +78,12 @@ function LeadChallenges() {
             <SectionHeading className="heading">
               The Challenge With Lead Management Today?
             </SectionHeading>
-            <p className="text-black font-medium opacity-60 leading-5 md:leading-7 mt-1 mx-auto md:mx-0 max-w-[540px]">
-              There are too many sources, with too little time!{' '}
-              <span className="block mt-2">
-                Lead management software has a significant impact not just in
-                improving business performance, but also the seller experience.
-                If lead management isn’t done right, then the resulting issues
-                can equate to revenue leakages
-              </span>
+            <p className="text-black font-medium opacity-90 leading-5 md:leading-7 mt-2 mx-auto md:mx-0 max-w-[540px]">
+              There are too many sources, with too little time!
+              <span className="d-bck">Lead management software has a significant impact not just in improving business performance, but also the seller experience. If lead management isn’t done right, then the resulting issues can equate to revenue leakages.</span>
+             
             </p>
-            <Button className="mt-3 md:mt-4" large>
+            <Button className="mt-2 md:mt-2">
               How can Vymo help?
             </Button>
           </div>

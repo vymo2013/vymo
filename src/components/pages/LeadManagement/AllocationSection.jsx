@@ -62,7 +62,7 @@ function AllocationSection() {
         <div className="flex flex-wrap justify-center items-stretch md:items-center mx-[-15px] md:mx-[-12px]">
           {based.map((b) => (
             <div className="tablet" key={b.id}>
-              <img src={`/img/icons/${b.img}`} alt="" width="35" height="35" />
+              <img src={`/img/icons/${b.img}`} alt={b.text} width="35" height="35" />
               <span>{b.text}</span>
             </div>
           ))}

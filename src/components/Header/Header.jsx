@@ -107,7 +107,7 @@ function Header({ dark }) {
      const isSticky = (e) => {
           const header = document.querySelector('.header-main');
           const scrollTop = window.scrollY;
-          scrollTop >= 250 ? header.classList.add('sticky') : header.classList.remove('sticky');
+          scrollTop >= 260 ? header.classList.add('sticky') : header.classList.remove('sticky');
       };
   return (
     <header>
@@ -150,7 +150,7 @@ function Header({ dark }) {
                   }
                 </Link>
               ))}
-              <a href="book-a-demo" className="flex items-center text-[15px] font-medium false md:hidden"><Button className="header-action">Book Demo</Button></a>
+              <a href="book-a-demo" className="flex items-center text-[15px] font-medium false xl:hidden"><Button className="header-action">Book Demo</Button></a>
             </ul>
             
             <a href="book-a-demo"><Button className="header-action">Book Demo</Button></a>
