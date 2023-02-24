@@ -19,7 +19,7 @@ function HeroSection() {
               <span className="font-bold">Engineered to</span> <i>deliver Insights</i> <span className="font-bold">and</span> <i>interventions</i>
             </h1>
 
-            <p className="max-w-[280px] md:max-w-[800px] text-center text-darkPurple font-normal leading-5 md:leading-7 mt-3 mb-4 mx-auto md:text-18 leading-[28px]">
+            <p className="max-w-[280px] md:max-w-[800px] text-center text-darkPurple font-normal leading-5 md:leading-7 mt-3 mb-4 mx-auto md:text-18">
               You need more than systems of record to improve sales activities
               and customer experience, you need insights delivered real time in
               the field to make a impact.
