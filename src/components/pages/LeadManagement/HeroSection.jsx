@@ -29,7 +29,6 @@ function HeroSection() {
                 src="/img/lead-management/hero-bg15.png"
                 width="100%"
                 alt="lead management banner"
-
               />
             </div>
           </div>
