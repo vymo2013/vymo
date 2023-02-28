@@ -8,7 +8,7 @@ function VymoMagicSection() {
         <div className="row">
           <div className="col-md col-10 offset-1 mb-2 md:mb-2">
             <h2 className="text-28 md:text-48  tracking-[-1px] md:tracking-[-2px] md:leading-[64px] leading-9 font-light text-center mb-5">
-            <span className="font-bold">How Vymo </span> <i>add the magic?</i>
+            <span className="font-bold">How Vymo </span> <i>adds the magic?</i>
           </h2>
           </div>
         </div>
