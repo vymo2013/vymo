@@ -647,6 +647,10 @@ p {
   .md\:text-20{
     font-size: 16px !important;
   }
+    .flex-grid {
+      flex-direction: column;
+      gap:0px;
+    }
   
 }
 @media(min-width: 900px){

@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import AllocationSection from '../components/pages/LeadManagement/AllocationSection';
 import HeroSection from '../components/pages/LeadManagement/HeroSection';
-import LeadChallenges from '../components/pages/LeadManagement/LeadChallenges';
+// import LeadChallenges from '../components/pages/LeadManagement/LeadChallenges';
 // import LittleMoreSection from '../components/pages/LeadManagement/LittleMoreSection';
 import HowWeCanHelp from '../components/pages/LeadManagement/HowWeCanHelp';
 import VymoMagicSection from '../components/pages/LeadManagement/VymoMagicSection';
@@ -11,6 +11,7 @@ import SalesEngagement from '../components/sections/SalesEngagementSection/Sales
 import GetStartedSection from '../components/sections/GetStartedSection/GetStartedSection';
 import DeployedSection from '../components/sections/DeployedSection';
 import WatchInAction from '../components/pages/LeadManagement/WatchInAction';
+import TyppicalChallenges from '../components/pages/LeadManagement/TyppicalChallenges';
 import SEO from '../components/SEO';
 
 function LeadManagementPage() {
@@ -18,8 +19,13 @@ function LeadManagementPage() {
     <Layout mainClassName="main-lead-management">
       <SEO title="Lead Management" />
       <HeroSection />
-      <DeployedSection />
-      <LeadChallenges />
+      <div className="container home">
+        <div className="row overflow-hidden col-xs-12 logo-shw pb-[48px] md:pb-[100px]">
+          <DeployedSection />
+        </div>
+      </div>
+      <TyppicalChallenges/>
+      {/* <LeadChallenges /> */}
       <VymoMagicSection />
       <WatchInAction />
       <HowWeCanHelp />

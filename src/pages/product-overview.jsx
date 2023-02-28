@@ -11,6 +11,7 @@ import ContactSection from '../components/sections/ContactSection/ContactSection
 import DeployedSection from '../components/sections/DeployedSection';
 import GetStartedSection from '../components/sections/GetStartedSection/GetStartedSection';
 import SalesEngagement from '../components/sections/SalesEngagementSection/SalesEngagementSection';
+// import WholeSalerSlider from '../components/slider/WholeSalerSlider';
 import SEO from '../components/SEO';
 function LeadManagementPage() {
   return (
@@ -27,6 +28,7 @@ function LeadManagementPage() {
       <IntegrationSection />
       {/*<SalesDetailsSection />*/}
       <SalesEngagement />
+      {/* <WholeSalerSlider/> */}
       <ContactSection />
       <GetStartedSection />
     </Layout>

@@ -13,19 +13,20 @@ function WatchInAction() {
   };
   return (
     <section className="section-pad">
-      <div className="container">
-        <h2 className="text-28 md:text-48  tracking-[-1px] md:tracking-[-2px] md:leading-[64px] leading-9 font-light text-center mb-5">
-          <span className="font-bold">See </span> <i>How We Work </i><span className="font-bold">in Action!</span>
+      <div className="container lg:-mb-2 xs:mt-4">
+        <h2 className="text-28 md:text-48  tracking-[-1px] md:tracking-[-2px] md:leading-[64px] leading-9 font-light text-center mb-4">
+          <span className="font-bold">See </span> <i>How We Work </i><span className="font-bold"> in Action!</span>
         </h2>
 
         <div className="relative">
+          <div className="col-10 offset-1 col-xs-12">
           <video
             ref={videoRef}
             muted
             // autoPlay
             // playsInline
             // loop
-            width="1280"
+            width="100%"
             height="720"
             controls={!playVisible}
             className="inset-video w-full rounded-2xl md:rounded-3xl"
@@ -43,10 +44,11 @@ function WatchInAction() {
                 </svg>
               </button>
               <span className="block font-medium mt-3 text-white text-16">
-                Watch the Film
+                Watch Video
               </span>
             </div>
           )}
+          </div>
         </div>
 
         {/* <div className="text-center">
