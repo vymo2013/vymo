@@ -5,7 +5,7 @@ import HeroSection from '../components/pages/LeadManagement/HeroSection';
 import LeadChallenges from '../components/pages/LeadManagement/LeadChallenges';
 // import LittleMoreSection from '../components/pages/LeadManagement/LittleMoreSection';
 import HowWeCanHelp from '../components/pages/LeadManagement/HowWeCanHelp';
-// import VymoMagicSection from '../components/pages/LeadManagement/VymoMagicSection';
+import VymoMagicSection from '../components/pages/LeadManagement/VymoMagicSection';
 import ContactSection from '../components/sections/ContactSection/ContactSection';
 import SalesEngagement from '../components/sections/SalesEngagementSection/SalesEngagementSection';
 import GetStartedSection from '../components/sections/GetStartedSection/GetStartedSection';
@@ -20,10 +20,9 @@ function LeadManagementPage() {
       <HeroSection />
       <DeployedSection />
       <LeadChallenges />
-      {/* <VymoMagicSection /> */}
-      <HowWeCanHelp />
-
+      <VymoMagicSection />
       <WatchInAction />
+      <HowWeCanHelp />
       <AllocationSection />
       {/* <LittleMoreSection /> */}
       <ContactSection />

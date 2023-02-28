@@ -14,11 +14,11 @@ function WatchInAction() {
   return (
     <section className="section-pad">
       <div className="container">
-        <h2 className="text-28 md:text-48  tracking-[-1px] md:tracking-[-2px] md:leading-[64px] leading-9 font-bold text-center mb-5">
-          See How We Work in Action!
+        <h2 className="text-28 md:text-48  tracking-[-1px] md:tracking-[-2px] md:leading-[64px] leading-9 font-light text-center mb-5">
+          <span className="font-bold">See </span> <i>How We Work </i><span className="font-bold">in Action!</span>
         </h2>
 
-        <div className="relative mb-5">
+        <div className="relative">
           <video
             ref={videoRef}
             muted
@@ -49,11 +49,11 @@ function WatchInAction() {
           )}
         </div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <Button href="#!">
             Get Started now
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -71,11 +71,10 @@ function CoreModulesSection() {
           </div>
 
           <div className="w-full md:w-1/2 lg:ml-3 overflow-hidden lg:pr-5">
-            <SectionHeading
-              className="lg:max-w-[530px] mb-4 md:mb-5 text-center lg:text-left lg:mx-0 text-32 leading-[42px] md:text-48 font-iight md:leading-[54px] font-light"
-              textAlign="left">
+            <h2
+              className="lg:max-w-[530px] mb-4 md:mb-5 text-center lg:text-left lg:mx-0 text-32 leading-[42px] md:text-48 md:leading-[54px] text-iight">
               <span className="font-bold">Drive</span><i> more sales</i><span className="font-bold"> with our core modules</span>
-            </SectionHeading>
+            </h2>
             <div className="hidden md:flex flex-wrap relative -mt-3 -mx-2">
               {panels.map((p) => (
                 <div className="w-1/2 px-2 py-3" key={p.key}>
