@@ -1,4 +1,10 @@
 .main-lead-management {
+  .progress-slider-container .slider-progress {
+    display: none;
+  }
+  .progress-slider-container .mt-5 {
+    margin: 0px;
+  }
   .hero-section {
     .heading {
       text-align: center;
@@ -14,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
 
       .btn-box {
           width: 270px;

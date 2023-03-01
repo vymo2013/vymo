@@ -4,7 +4,7 @@ import SalesEngagement from '../components/sections/SalesEngagementSection/Sales
 import ChallengesSection from '../components/pages/WhyVymo/ChallengesSection';
 // import DownloadSalesInsights from '../components/pages/WhyVymo/DownloadSalesInsights';
 import HeroSection from '../components/pages/WhyVymo/HeroSection';
-import IntegrationSection from '../components/pages/WhyVymo/IntegrationSection';
+// import IntegrationSection from '../components/pages/WhyVymo/IntegrationSection';
 import TransformingSection from '../components/pages/WhyVymo/TransformingSection/TransformingSection';
 import ModalVideo from '../components/pages/WhyVymo/VideoModal';
 import GetStartedSection from '../components/sections/GetStartedSection/GetStartedSection';
@@ -18,7 +18,7 @@ function WhyVymoPage() {
       <TransformingSection />
       <ModalVideo />
       <SalesEngagement />
-      <IntegrationSection />
+      {/* <IntegrationSection /> */}
       <ChallengesSection />
       <GetStartedSection />
       {/*<DownloadSalesInsights />*/}

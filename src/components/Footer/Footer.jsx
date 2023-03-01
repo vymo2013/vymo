@@ -130,11 +130,12 @@ const links = [
     id: 4,
     title: 'Use Cases',
     className: 'w-full order-3 md:order-4',
+    link: '/use-cases',
     subLinks: [
       {
         id: 1,
         title: 'Improve Wholesaler Productivity',
-        link: '#!',
+        link: '/use-cases/improve-wholesaler-productivity',
       },
       {
         id: 2,
@@ -235,6 +236,7 @@ function Footer({ dark }) {
             <div
               className={`md:flex-1 ${l.className} mt-[40px] md:mt-0`}
               key={`${l.title}`}>
+              {/* <a href={l.link}></a> */}
               <h6
                 className={`${
                   dark ? 'text-white' : 'text-black'
@@ -281,7 +283,7 @@ function Footer({ dark }) {
             <a href="https://twitter.com/getvymo" target="_blank" className="hover:opacity-80">
               <img
                 src="/img/icons/twitter.svg"
-                alt=""
+                alt="twitter icon"
                 width="34px"
                 height="34px"
               />
@@ -298,16 +300,16 @@ function Footer({ dark }) {
             <a href="https://www.youtube.com/@VymoInc" className="hover:opacity-80 ml-2" target="_blank">
               <img
                 src="/img/icons/youtube.png"
-                alt=""
+                alt="youtube icon"
                 width="36px"
                 height="36px"
               />
             </a>
 
-            <a href="linkedin.com/company/vymo/" className="hover:opacity-80 ml-2" target="_blank">
+            <a href="https://linkedin.com/company/vymo/" className="hover:opacity-80 ml-2" target="_blank">
               <img
                 src="/img/icons/linkedin.svg"
-                alt=""
+                alt="linkedin icon"
                 width="34px"
                 height="34px"
               />

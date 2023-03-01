@@ -5,9 +5,9 @@ import SectionHeading from '../../Heading/SectionHeading';
 function HeroSection() {
   return (
     <section className="relative section-pad bg-lightBg2 hero-section overflow-hidden">
-      <div className="container mt-4 md:mt-2 xl:mt-0">
+      <div className="container mt-4 md:mt-6 xl:mt-6">
         <div className="flex flex-wrap">
-          <div className="w-full xl:w-[41.5%] text-center xl:text-left">
+          <div className="w-full xl:w-[41.5%] text-center xl:text-left xl:mt-4">
             <SectionHeading className="heading">
               We make wholesaler excellence happen
             </SectionHeading>
@@ -17,7 +17,7 @@ function HeroSection() {
               coach their agencies to success. Vymo helps wholesalers juggle
               their roles efficiently and productively
             </p>
-            <Button className="mt-1 md:mt-2 started-btn">Get Started</Button>
+            <Button className="mt-1 md:mt-2 started-btn red-btn">Get Started</Button>
           </div>
           <div className="w-full xl:w-[58%] select-none mt-[-82px] xl:mt-0">
             <div className="relative bottom-[-82px] xl:bottom-0 xl:absolute xl:h-[682px] xl:w-[1120px]">

@@ -31,16 +31,16 @@ const challenges = [
       height: '86',
     },
   },
-  {
-    id: 4,
-    title: 'Know all your Leads',
-    text: 'Vymo provides users with a comprehensive view of all details, engagements and metadata concerning the lead. This allows reps to manage their leads more effectively and bring in higher revenue from each of them',
-    image: {
-      src: 'know-all-your-leads.svg',
-      width: '93',
-      height: '86',
-    },
-  },
+  // {
+  //   id: 4,
+  //   title: 'Know all your Leads',
+  //   text: 'Vymo provides users with a comprehensive view of all details, engagements and metadata concerning the lead. This allows reps to manage their leads more effectively and bring in higher revenue from each of them',
+  //   image: {
+  //     src: 'know-all-your-leads.svg',
+  //     width: '93',
+  //     height: '86',
+  //   },
+  // },
 ];
 
 function HowWeHelpSlider() {

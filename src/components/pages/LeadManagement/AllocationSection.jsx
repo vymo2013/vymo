@@ -49,10 +49,10 @@ const based = [
 ];
 function AllocationSection() {
   return (
-    <section className="relative section-pad bg-lightWhite allocation-section">
+    <section className="relative section-pad bg-lightWhite allocation-section mt-3">
       <div className="container">
         <div className="row">
-          <div className="col-md col-10 offset-1 mb-3 md:mb-6">
+          <div className="col-md col-10 offset-1 mb-3 md:mb-6 mt-1">
             <SectionHeading>
               Vymo’s ML algorithms offer the most personalized allocation, with
               allocation capabilities based on

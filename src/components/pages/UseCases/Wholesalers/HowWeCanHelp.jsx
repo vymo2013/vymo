@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from '../../Button/Button';
-import HowWeHelpSlider from '../../Slider/HowWeHelpSlider';
+import Button from '../../../Button/Button';
+import HowWeHelpSlider from '../../../Slider/HowWeHelpSlider';
 
 function HowWeCanHelp() {
   return (

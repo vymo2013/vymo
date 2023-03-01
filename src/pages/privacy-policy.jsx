@@ -7,6 +7,7 @@ function PrivacyPage() {
   return (
     <Layout>
       <SEO title="Privacy Policy" />
+      <div className="col-8 offset-2 mx-auto col-xs-12">
       <TextLayout
         title="Privacy Policy"
         date="Last Updated: September 6, 2022"
@@ -431,6 +432,7 @@ function PrivacyPage() {
           </>
         }
       />
+      </div>
     </Layout>
   );
 }
