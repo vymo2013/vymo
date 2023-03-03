@@ -21,10 +21,10 @@ function HeroSection() {
   return (
     <section className="relative section-pad why-vymo-hero-section overflow-hidden">
       <div className="container mt-5 md:mt-0">
-        <div className="row">
-          <div className="col-md col-7 text-center lg:text-left self-center">
+        <div className="row md:mb-6">
+          <div className="col-md col-7 text-center xl:text-left md:text-left lg:text-left self-center">
             
-            <h1 className="text-36 md:text-60 tracking-[-2px] leading-[44px] md:leading-[68px] font-light mt-3">
+            <h1 className="text-36 md:text-56 tracking-[-2px] leading-[44px] md:leading-[68px] font-light mt-3">
                <span className="font-bold">Conventional CRMs </span><span className="d-bck"><span className="font-bold"> are</span> <i>insufficient</i> </span>
             </h1>
             <p className="text-black text-16 md:text-18 mt-2 font-medium mb-1 md:mb-[25px] w-full lg:w-4/5">
@@ -90,7 +90,7 @@ function HeroSection() {
                 height="50"
                 alt=""
               />
-              <p className="ml-[21px] font-medium text-18 md:text-20 self-center mb-0 benefits-p opacity-90">
+              <p className="ml-[21px] font-medium text-16 md:text-16 xl:text-18 self-center mb-0 benefits-p opacity-90">
                 {b.text}
               </p>
             </div>

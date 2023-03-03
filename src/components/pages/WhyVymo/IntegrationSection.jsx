@@ -15,7 +15,7 @@ function IntegrationSection() {
       ref={ref}>
       <div className="container">
         <div className="row">
-          <div className="col-md col-7 mx-auto">
+          <div className="col-md col-8 mx-auto">
             <h3 className="text-white text-48 font-light text-center leading-[64px] m-font-head">
               <span className="font-bold">Turn</span> <i>key Integrations</i> <span className="font-bold">with <span className="d-bck">your sales tech stack</span></span>
             </h3>

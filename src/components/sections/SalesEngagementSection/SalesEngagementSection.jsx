@@ -14,7 +14,7 @@ function SalesEngagement(props) {
       className="section-pad bg-lightWhite sales-engagement-section fade-in"
       ref={ref}>
       <div className="container">
-        <div className="w-full lg:w-3/5 mx-auto max-w-[1060px]">
+        <div className="w-full md:w-3/5 lg:w-3/5 mx-auto max-w-[1060px]">
           <SectionHeading className="mb-3 md:mb-6">
             {props.title}
             <img src="/img/sales-eng.svg" width="100%"/>

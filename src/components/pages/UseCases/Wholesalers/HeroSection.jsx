@@ -4,13 +4,12 @@ import SectionHeading from '../../../Heading/SectionHeading';
 
 function HeroSection() {
   return (
-    <section className="relative section-pad bg-lightBg2 hero-section overflow-hidden">
-      <div className="container mt-4 md:mt-6 xl:mt-6">
+    <section className="relative section-pad bg-lightBg2 hero-section overflow-hidden  xs:mb-4">
+      <div className="container mt-4 md:mt-6 xl:mt-6 lg:mb-3">
         <div className="flex flex-wrap">
-          <div className="w-full xl:w-[48%] text-center xl:text-left xl:mt-4">
-
+          <div className="col-md col-6 text-center md:text-left lg:text-left xl:text-left xl:mt-4 md:mb-6">
            <h1
-              className="mx-auto text-36 md:text-48 leading-[38px] lg:mt-1 font-iight md:leading-[62px]">
+              className="mx-auto text-36 md:text-40 leading-[38px] lg:mt-1 font-iight md:leading-[48px] xs:mt-2">
               <span className="font-bold">Enhance the</span> <i>Wholesaler Experience</i> <span className="font-bold">and Create Profitable Agencies</span>.
             </h1>
 
@@ -21,8 +20,8 @@ function HeroSection() {
             </p>
             <Button className="mt-1 md:mt-2 started-btn red-btn">Get Started</Button>
           </div>
-          <div className="w-full xl:w-[52%] select-none mt-[-82px] xl:mt-0">
-            <div className="relative bottom-[-82px] xl:bottom-0 xl:absolute xl:h-[682px] xl:w-[820px]">
+          <div className="col-md col-6 select-none lg:mt-[-2px] xl:mt-[-82px] xs:mb-4">
+            <div className="relative xl:h-[582px] xl:w-[720px]">
               <img
                 // width="1289"
                 // height="1022"

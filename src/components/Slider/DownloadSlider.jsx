@@ -37,6 +37,11 @@ function DownloadSlider({ data, imageHeight }) {
               items: 2,
               controls: false,
             },
+            1024: {
+              gutter: 0,
+              items: 3,
+              controls: false,
+            },
             1265: {
               items: 3,
               controls: false,

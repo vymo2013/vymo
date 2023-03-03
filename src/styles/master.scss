@@ -212,13 +212,14 @@ p {
   width: 100%;
   padding: 0 15px;
 
-  @media (max-width: 1300px) {
-    max-width: 100%;
+  @media (min-width:1024px) and (max-width: 1300px) {
+    max-width: 94%;
   }
   &.no-padding {
     padding: 0px 0px;
   }
 }
+
 .fluid-container {
   max-width: 1300px;
   margin-left: auto;
@@ -226,8 +227,8 @@ p {
   width: 100%;
   padding: 0 15px;
 
-  @media (max-width: 1300px) {
-    max-width: 100%;
+  @media (min-width:1024px) and (max-width: 1300px) {
+    max-width: 94%;
   }
   &.no-padding {
     padding: 0px 0px;
@@ -452,8 +453,21 @@ p {
   fill: #000;
 }
 @media (min-width: 768px){
+  .md\:text-30 {
+      font-size: 30px;
+  }
   .md\:text-56 {
       font-size: 56px;
+  }
+  .lg\:text-56 {
+      font-size: 56px;
+  }
+  
+  .md\:text-46{
+    font-size:46px;
+  }
+  .xl\:text-56{
+    font-size:56px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -653,18 +667,44 @@ p {
   }
   
 }
+@media(min-width: 767px) and (max-width:899px){
+   .p-over-center{
+    text-align:center;
+  }
+}
 @media(min-width: 900px){
   .main-footer .md\:flex-1:nth-child(4) {
       padding-right:18px;
   }
-
 }
+
 @media only screen and (min-width: 1500px) {
   .hero-section {
       background-position: 230px 200px;
   }
+  .home-page.hero-section{
+    background-position: 210px 220px !important;
+  }
 }
-
+@media (max-width: 1300px) and (max-width:1700px){
+  :root .home .logo-slider .logo-image {
+      position: relative;
+      left: 0px !important;
+  }
+  .main-lead-management .flex-grid .btn-box{
+    width:250px !important;
+    font-size:14px !important
+  }
+  .benifits-section .box{
+    background-size:170px !important;
+    background-position-y: 0px !important;
+  }
+}
+@media(min-width:1701px){
+  .lead-banner{
+    width:100% !important
+  }
+}
 .text-center {
     text-align: center;
 }
@@ -673,7 +713,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 98;
+    z-index: 198;
     box-shadow: 0 2px 10px 0 rgb(0 0 0 / 6%);
     background-color: #ffffff !important;
     animation: 500ms ease-in-out 1s normal none 1 running fadeInUp;
@@ -688,9 +728,7 @@ p {
   padding-top:0px !important;
   padding-bottom: 0px;
 }
-.md\:text-30 {
-    font-size: 30px;
-}
+
 .fade-in {
   opacity: 0;
   transition-property: opacity;

@@ -19,7 +19,7 @@ function WatchInAction() {
         </h2>
 
         <div className="relative">
-          <div className="col-10 offset-1 col-xs-12">
+          <div className="col-10 offset-1 col-xs-12 mx-auto">
           <video
             ref={videoRef}
             muted

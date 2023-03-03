@@ -6,12 +6,12 @@
   transition: box-shadow 0.2s;
   position: sticky;
   top: 0;
-  z-index: 99;
+  z-index: 199;
   border-top: 1px solid $border-stroke;
   border-bottom: 1px solid $border-stroke;
   &.is-sticky {
     backdrop-filter: blur(3px);
-    background-color: rgba(#fff, 0.96);
+    background-color: rgba(#fff, 1);
 
     .secondary-nav-col {
       &:nth-child(2) {

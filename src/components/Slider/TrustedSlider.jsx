@@ -35,7 +35,7 @@ function TrustedSlider() {
             autoplay: true,
           },
           1024: {
-            autoplay: true,
+            disable: true,
           },
           1200: {
             disable: true,

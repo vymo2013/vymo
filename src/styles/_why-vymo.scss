@@ -13,7 +13,7 @@
       }
     }
 
-    @media (min-width: 1280px) {
+    @media (min-width: 1024px) and (max-width:1700px) {
       &::before {
         content: '';
         position: absolute;
@@ -141,7 +141,7 @@
 }
 .benefits-p{
   font-style: normal;
-  line-height: 30px;
+  line-height: 24px;
   color: #17171C;
 }
 .video-bg{

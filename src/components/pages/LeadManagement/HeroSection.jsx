@@ -4,11 +4,11 @@ import SectionHeading from '../../Heading/SectionHeading';
 function HeroSection() {
   return (
     <section className="relative section-pad hero-section overflow-hidden">
-      <div className="container mt-5 xl:mt-3 mb-3">
+      <div className="container mt-5 lg:mt-2 xl:mt-6 mb-3">
         <div className="flex flex-wrap justify-between items-center px-[15px] xl:px-0 m-pt-4">
-          <div className="w-full xl:w-[55%] xl:-mt-3 lg:pt-5 text-center lg:text-left self-center">
+          <div className="col-md col-7 xl:-mt-3 lg:pt-5 xl:pt-  text-center md:text-left lg:text-left self-center">
             <h1
-              className="mx-auto text-36 md:text-56 leading-[38px] lg:mt-1 font-iight md:leading-[68px]">
+              className="mx-auto text-36 md:text-46 xl:text-56 leading-[38px] lg:mt-1 font-iight md:leading-[56px] xl:leading-[60px]">
               <span className="font-bold">Convert</span> <i>more leads to customers,</i> <span className="font-bold">predictably</span>.
             </h1>
             <p className="text-darkPurple font-medium text-16 md:text-16 leading-5 md:leading-7 mt-2 leading-[28px] opacity-90 xs:mt-2">
@@ -23,8 +23,8 @@ function HeroSection() {
               See how we can help
             </Button>
           </div>
-          <div className="w-full xl:w-[45%] select-none mt-[40px] xl:mt-0">
-            <div className="xl:w-[800px] relative md:pl-2">
+          <div className="col-md col-5 select-none mt-[40px] xl:mt-0">
+            <div className="lg:w-[700px] xl:w-[800px] relative md:pl-2 lead-banner">
               <img
                 src="/img/lead-management/hero-bg15.png"
                 width="100%"

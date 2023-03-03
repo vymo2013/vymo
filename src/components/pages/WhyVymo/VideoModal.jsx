@@ -29,14 +29,14 @@ export class Modal extends Component {
             onClose={() => this.setState({ isOpen: false })}
           />
           {/*<button onClick={this.openModal}>Open</button>*/}
-            <div className="container relative">
-              <div className="col-10 offset-1 col-xs-12 mt-1 mb-6 lg:pt-0">
+            <div className="container relative md:pb-4">
+              <div className="col-10 offset-1 col-xs-12 mt-1 mb-6 lg:pt-0 mx-auto">
                  <div className="video-bg hidden md:block">
-                    <div className="w-full lg:w-1/2 lg:p-5">
+                    <div className="col-md col-6 md:p-5 md:col-9 lg:p-5">
                       <h4 className="text-28 md:text-28 text-white leading-[40px] font-light mt-4"><i>Gordon Ritter</i><span className="font-bold"> was one of the first angel investors in Salesforce. Here's why he thinks Vymo is revolutionary</span></h4>
                       <a href="#!"><button className="btn video-ybtn mt-5" onClick={this.openModal}>Watch Video</button></a>
                     </div>
-                    <div className="w-full lg:w-1/2"></div>
+                    <div className="col-md col-6 md:col-3"></div>
                  </div>
                  <a href="#!" className="img-hv md:hidden" onClick={this.openModal}><img src="/img/why/future-of-software.webp" width="100%" alt="the future of sales"/></a>
               </div>
