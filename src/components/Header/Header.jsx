@@ -53,15 +53,62 @@ const Links = [
     ],
   },
   {
+    key: 'nav-l-5',
+    url: 'javascript:void(0);',
+    title: 'Use Cases',
+    multiple: true,
+    Submenu: [
+      { 
+        id: 1,
+        title: 'Wholesaler Productivity',
+        url: '/use-cases/improve-wholesaler-productivity/',
+      },
+      {
+        id: 2,
+        title: 'Commercial Banking',
+        url: '#!',
+      },
+      {
+        id: 3,
+        title: 'Independent Agents',
+        url: '#!',
+      },
+      {
+        id: 4,
+        title: 'Improve Renewals',
+        url: '#!',
+      },
+      {
+        id: 5,
+        title: 'Wealth Banking',
+        url: '#!',
+      },
+      {
+        id: 6,
+        title: 'Retail Sales',
+        url: '#!',
+      },
+      {
+        id: 7,
+        title: 'SMB Banking',
+        url: '#!',
+      },
+      {
+        id:8,
+        title: 'Mobile Sales CR',
+        url: '#!',
+      },
+      {
+        id:9,
+        title: 'Sales Tracking Software',
+        url: '#!',
+      },
+    ],
+  },
+  {
     key: 'nav-l-4',
     url: '/resources',
     title: 'Resources',
-    multiple: false,
-  },
-  {
-    key: 'nav-l-5',
-    url: '/about',
-    title: 'About',
     multiple: false,
   },
 ];
@@ -136,28 +183,27 @@ function Header({ dark }) {
                   </span>
                   {l.multiple && <Caret/>}
 
-                  {/* </a> */}
-
                   {l.multiple == true &&
                      <ul className="dropdown-menu">
-                        <li className="dropdown-header"><a href="/lead-management">Lead Management</a></li>
-                        <li className="dropdown-header"><a href="/vymo-for-salesforce">Vymo for Salesforce</a></li>
-                        <li className="dropdown-header"><a href="/activity-management">Activity Management</a></li>
-                        <li className="dropdown-header"><a href="/relationship-management">Relationship Management</a></li>
-                        <li className="dropdown-header"><a href="/partner-engagement">Partner Engagement</a></li>
-                        <li className="dropdown-header"><a href="/remote-sales">Remote Sales</a></li>
+                        {l.Submenu.map((sl) => (
+                          <li key={`${sl.title}-${sl.id}`} className="dropdown-header">
+                            <a href={sl.url}>
+                              {sl.title}
+                            </a>
+                          </li>
+                        ))}
                     </ul>
                   }
                 </Link>
               ))}
-              <a href="book-a-demo" className="flex items-center text-[15px] font-medium false xl:hidden"><Button className="header-action">Book Demo</Button></a>
+              <a href="book-a-demo" className="flex items-center text-[15px] font-medium false lg:hidden xl:hidden"><Button className="header-action">Book Demo</Button></a>
             </ul>
             
             <a href="book-a-demo"><Button className="header-action">Book Demo</Button></a>
 
             <button
               onClick={navOpenTrigger}
-              className={`hamburger inline-flex xl:hidden justify-center items-end flex-col w-5 h-5 relative z-50 ${
+              className={`hamburger inline-flex lg:hidden xl:hidden justify-center items-end flex-col w-5 h-5 relative z-50 ${
                 openNav ? 'nav-open' : ''
               }`}
               type="button">

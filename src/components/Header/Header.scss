@@ -31,7 +31,7 @@
       }
     }
 
-    @media (max-width: 1280px) {
+    @media (max-width: 1024px) {
       position: fixed;
       width: 100%;
       //height: 100%;
@@ -64,7 +64,7 @@
 
   .header-action {
     display: block;
-    @media (max-width: 1280px) {
+    @media (max-width: 1024px) {
       display: none;
     }
   }
@@ -152,7 +152,7 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
   .nav-list .header-action{
     display: block;
     padding: 8px 14px;

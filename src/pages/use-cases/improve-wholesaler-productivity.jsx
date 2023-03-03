@@ -10,7 +10,6 @@ import GetStartedSection from '../../components/sections/GetStartedSection/GetSt
 import SalesEngagement from '../../components/sections/SalesEngagementSection/SalesEngagementSection';
 import WatchInAction from '../../components/pages/UseCases/Wholesalers/WatchInAction';
 import HowWeCanHelp from '../../components/pages/UseCases/Wholesalers/HowWeCanHelp';
-// import ModalVideo from '../../components/pages/UseCases/Wholesalers/VideoModal';
 import SEO from '../../components/SEO';
 
 function WholesalerPage() {

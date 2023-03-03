@@ -93,7 +93,7 @@ body {
     font-weight: 400;
     line-height: 30px;
     text-align: left;
-    padding:3px 15px;
+    padding:2px 15px;
 }
 .header-main  a.nav-multiple:hover .dropdown-menu {
   display: block;
@@ -647,10 +647,10 @@ p {
   .md\:text-20{
     font-size: 16px !important;
   }
-    .flex-grid {
-      flex-direction: column;
-      gap:0px;
-    }
+  .flex-grid {
+    flex-direction: column;
+    gap:0px;
+  }
   
 }
 @media(min-width: 900px){
