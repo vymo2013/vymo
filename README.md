@@ -1,4 +1,4 @@
-Vymo Website built with React Js
+Vymo Website built with (ReactJs + GatsbyJs + Tailwind CSS + NodeJs + NPM + Mongodb)
 
 
 Local Development Setup Readme:
@@ -15,10 +15,11 @@ Development Server URLs
 
 Tools & Frameworks used:
 
-1. VS Code Studio (https://code.visualstudio.com/)
-2. GitHub Desktop (https://desktop.github.com/)
-3. Gatsby Js (https://www.gatsbyjs.com/)
-4. Netlify (https://www.netlify.com/)
-5. Contentful - CMS (https://www.contentful.com/)
+1. Gatsby Js (https://www.gatsbyjs.com/)
+2. Netlify (https://www.netlify.com/)
+3. Tailwind CSS (UI Compnonents)
+4. Node JS (Backend)
+5. MongoDb (Database)
+6. Contentful - CMS (https://www.contentful.com/)
 
 
