@@ -113,7 +113,32 @@ const Links = [
   },
 ];
 
+// scroll direction hook
+// function useScrollDirection() {
+//   const [scrollDirection, setScrollDirection] = React.useState(null);
+
+//   React.useEffect(() => {
+//     let lastScrollY = window.pageYOffset;
+
+//     const updateScrollDirection = () => {
+//       const scrollY = window.pageYOffset;
+//       const direction = scrollY > lastScrollY ? "down" : "up";
+//       if (direction !== scrollDirection && (scrollY - lastScrollY > 3 || scrollY - lastScrollY < -2)) {
+//         setScrollDirection(direction);
+//       }
+//       lastScrollY = scrollY > 0 ? scrollY : 0;
+//     };
+//     window.addEventListener("scroll", updateScrollDirection); // add event listener
+//     return () => {
+//       window.removeEventListener("scroll", updateScrollDirection); // clean up
+//     }
+//   }, [scrollDirection]);
+
+//   return scrollDirection;
+// };
+
 function Header({ dark }) {
+  // const scrollDirection = useScrollDirection();
   const [openNav, setOpenNav] = useState(false);
   const navOpenTrigger = () => {
     setOpenNav((state) => !state);
@@ -150,14 +175,16 @@ function Header({ dark }) {
         };
     });
            
-    /* Method that will fix header after a specific scrollable */
+    // /* Method that will fix header after a specific scrollable */
      const isSticky = (e) => {
           const header = document.querySelector('.header-main');
           const scrollTop = window.scrollY;
           scrollTop >= 260 ? header.classList.add('sticky') : header.classList.remove('sticky');
       };
+
   return (
     <header>
+      {/* sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} transition-all duration-500  */}
       <div className={`header-main ${!dark ? 'light' : ''}`}>
         <div className="fluid-container">
           <div

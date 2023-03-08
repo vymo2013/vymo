@@ -7,15 +7,15 @@ function HeroSection() {
     <section className="relative section-pad bg-lightBg2 hero-section overflow-hidden  xs:mb-4">
       <div className="container mt-4 md:mt-6 xl:mt-6 lg:mb-3">
         <div className="flex flex-wrap">
-          <div className="col-md col-6 text-center md:text-left lg:text-left xl:text-left xl:mt-4 md:mb-6">
+          <div className="col-md col-6 text-center md:text-left lg:text-left xl:text-left xl:mt-5 md:mb-6">
            <h1
-              className="mx-auto text-36 md:text-40 leading-[38px] lg:mt-1 font-iight md:leading-[48px] xs:mt-2">
+              className="mx-auto text-36 md:text-42 xl:text-48 leading-[38px] lg:mt-1 font-iight md:leading-[48px] xl:leading-[64px] xs:mt-2">
               <span className="font-bold">Enhance the</span> <i>Wholesaler Experience</i> <span className="font-bold">and Create Profitable Agencies</span>.
             </h1>
 
-            <p className="text-darkPurple font-medium opacity-85 leading-5 md:leading-7 mt-2">
+            <p className="text-darkPurple font-medium opacity-90 leading-5 md:leading-7 mt-2">
               On a day-to-day basis, insurance wholesalers need to manage multiple interests, swifty onboard their agencies, and be a trusted partner 
-              to everyone in their network. Not to mention, they need to stay on top of their performance. Vymo makes their lives easier by helping 
+              to everyone in their network. Not to mention, they need to stay on top of their performance. Vymo makes their lives easier by helping 
               them onboard, grow, retain and manage their agencies efficiently and automatically.
             </p>
             <Button className="mt-1 md:mt-2 started-btn red-btn">Get Started</Button>
