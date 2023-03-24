@@ -10,6 +10,7 @@ import TestimonialSection from '../components/pages/Home/TestimonialSection/Test
 // import PersonalAssistantSection from '../components/pages/Home/PersonalAssistantSection/PersonalAssistantSection';
 import SalesEngagementSection from '../components/sections/SalesEngagementSection/SalesEngagementSection';
 // import VymoHelpSection from '../components/pages/Home/VymoHelpSection/VymoHelpSection';
+import DeployedSection from '../components/sections/DeployedSection';
 import SEO from '../components/SEO';
 
 function IndexPage() {

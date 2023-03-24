@@ -121,57 +121,7 @@
       }
     }
   }
-  // .logo-container {
-  //   div {
-  //     &:nth-child(4),
-  //     &:nth-child(5) {
-  //       display: none;
-  //     }
-  //     @media (min-width: 768px) {
-  //       &:nth-child(n) {
-  //         display: block;
-  //       }
-  //     }
-  //   }
-  // }
 }
-// .logo-container {
-// }
-// .benifits-section {
-//   .client-benifit-slider {
-//     .item {
-//       .client-description {
-//         font-size: 20px;
-//         line-height: 34px;
-//       }
-//       img {
-//         display: inline-block;
-//       }
-//     }
-//   }
-
-//   /*
-//   carousel nav button default style
-// */
-//   .tns-controls {
-//     display: none;
-//   }
-//   .tns-nav {
-//     text-align: center;
-//     button {
-//       height: 8px !important;
-//       width: 8px !important;
-//       margin: 0 5px;
-//       border-radius: 50%;
-//       background: #d9d9d9 !important;
-//       opacity: 0.2 !important;
-//     }
-//     .tns-nav-active {
-//       background: #d9d9d9 !important;
-//       opacity: 1 !important;
-//     }
-//   }
-// }
 
 
 
@@ -210,18 +160,6 @@
   transform-origin: bottom left;
 }
 
-
-.home-page.hero-section .client-card:nth-child(1) {
-    align-self: flex-start !important;
-}
-.home-page.hero-section{
-   background:url('/img/vector.png');
-   background-size: auto;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-position: -15px 220px;
-}
-
 .md\:text-20{
   font-size:20px;
 }
@@ -237,4 +175,17 @@
   font-size:54px;
   font-weight:700;
   color:#EFF4F9;
+}
+.home-page .p-over-center{
+  text-align:center;
+}
+.md\:text-52{
+  font-size:52px;
+}
+.home-page.hero-section {
+  background: url('/img/vector.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-position: -15px 440px;
 }
