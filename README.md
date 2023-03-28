@@ -9,7 +9,6 @@ https://docs.google.com/document/d/1fFovRq2c55ggR3Efr2r9emqEUX3wKuYfd5GYW4AoG-M/
 Development Server URLs
 
 1. Netlify Server: https://vymo.netlify.app/
-2. Gatsby Js Server: https://vymo.gatsbyjs.io/
 
 
 
