@@ -8,7 +8,7 @@ function BannerSection() {
     if (entry) entry.target.classList.add('fade-in-view');
   }, [inView]);
   return (
-    <section className="section-pad sales-detail-section fade-in" ref={ref}>
+    <section className="section-pad sales-detail-section" ref={ref}>
       <div className="container no-padding">
         <div className="row relative z-10 col-xs-12">
           <div className="w-full lg:w-1/2 lg:top-3 lg:h-[0%] p-2">

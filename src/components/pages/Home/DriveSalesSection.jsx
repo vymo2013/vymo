@@ -8,7 +8,7 @@ function DriveSalesSection() {
     if (entry) entry.target.classList.add('fade-in-view');
   }, [inView]);
   return (
-    <section className="sales-detail-section fade-in mb-6 pb-6 mt-6" ref={ref}>
+    <section className="sales-detail-section mb-6 pb-6 mt-6" ref={ref}>
       <div className="container">
         <div className="w-full lg:w-6/12 mx-auto">
           <h3 className="mb-1 md:mb-4 font-light md:text-[40px] text-center xl:leading-[50px]">
