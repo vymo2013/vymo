@@ -37,21 +37,11 @@ const links = [
       },
       {
         id: 6,
-        title: 'Compliance',
-        link: '#!',
-      },
-      {
-        id: 7,
         title: 'Privacy',
         link: '/privacy-policy',
       },
       {
-        id: 8,
-        title: 'Pricing',
-        link: '#!',
-      },
-      {
-        id: 9,
+        id: 7,
         title: 'FAQ',
         link: '#!',
       },
@@ -126,76 +116,76 @@ const links = [
       },
     ],
   },
+  // {
+  //   id: 4,
+  //   title: 'Use Cases',
+  //   className: 'w-full order-3 md:order-4',
+  //   link: '/use-cases',
+  //   subLinks: [
+  //     {
+  //       id: 1,
+  //       title: 'Improve Wholesaler Productivity',
+  //       link: '/use-cases/improve-wholesaler-productivity',
+  //     },
+  //     {
+  //       id: 2,
+  //       title: 'Improve Commercial Banking Relationships',
+  //       link: '#!',
+  //     },
+  //     {
+  //       id: 3,
+  //       title: 'Independent Agents / Broker',
+  //       link: '#!',
+  //     },
+  //     {
+  //       id: 4,
+  //       title: 'Increase Partner Book of Busines',
+  //       link: '#!',
+  //     },
+  //     {
+  //       id: 5,
+  //       title: 'Improve Renewals',
+  //       link: '#!',
+  //     },
+  //     {
+  //       id: 6,
+  //       title: 'Increase Share of Wallet (Wealth',
+  //       link: '#!',
+  //     },
+  //     {
+  //       id: 7,
+  //       title: 'Improve customer onboarding',
+  //       link: '#!',
+  //     },
+  //     {
+  //       id: 8,
+  //       title: 'Sales Management Software',
+  //       link: '#!',
+  //     },
+  //     {
+  //       id: 9,
+  //       title: 'Sales Tracking Software',
+  //       link: '#!',
+  //     },
+  //     {
+  //       id: 10,
+  //       title: 'Sales Engagement Software',
+  //       link: '#!',
+  //     },
+  //     {
+  //       id: 11,
+  //       title: 'Sales Performance Management Software',
+  //       link: '#!',
+  //     },
+  //     {
+  //       id: 12,
+  //       title: 'Mobile Sales CR',
+  //       link: '#!',
+  //     },
+  //   ],
+  // },
   {
     id: 4,
-    title: 'Use Cases',
-    className: 'w-full order-3 md:order-4',
-    link: '/use-cases',
-    subLinks: [
-      {
-        id: 1,
-        title: 'Improve Wholesaler Productivity',
-        link: '/use-cases/improve-wholesaler-productivity',
-      },
-      {
-        id: 2,
-        title: 'Improve Commercial Banking Relationships',
-        link: '#!',
-      },
-      {
-        id: 3,
-        title: 'Independent Agents / Broker',
-        link: '#!',
-      },
-      {
-        id: 4,
-        title: 'Increase Partner Book of Busines',
-        link: '#!',
-      },
-      {
-        id: 5,
-        title: 'Improve Renewals',
-        link: '#!',
-      },
-      {
-        id: 6,
-        title: 'Increase Share of Wallet (Wealth',
-        link: '#!',
-      },
-      {
-        id: 7,
-        title: 'Improve customer onboarding',
-        link: '#!',
-      },
-      {
-        id: 8,
-        title: 'Sales Management Software',
-        link: '#!',
-      },
-      {
-        id: 9,
-        title: 'Sales Tracking Software',
-        link: '#!',
-      },
-      {
-        id: 10,
-        title: 'Sales Engagement Software',
-        link: '#!',
-      },
-      {
-        id: 11,
-        title: 'Sales Performance Management Software',
-        link: '#!',
-      },
-      {
-        id: 12,
-        title: 'Mobile Sales CR',
-        link: '#!',
-      },
-    ],
-  },
-  {
-    id: 5,
     title: 'Resources',
     className: 'w-1/2 order-5 md:order-5',
     subLinks: [
