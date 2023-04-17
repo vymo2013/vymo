@@ -10,7 +10,6 @@ module.exports = {
     description:
       'Sales Engagement Platform of choice for leading Financial Institutions. Used by 300k+ salespeople across 65+ enterprises such as Berkshire Hathaway, Sunlife, BNP Paribas, AXA, AIA.',
     author: 'Vymo',
-    siteUrl: `https://vymo-test.netlify.app/`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
