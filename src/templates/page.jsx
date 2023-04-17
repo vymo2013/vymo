@@ -16,7 +16,7 @@ export default function CatchAllRoute() {
   const isBrowser = typeof window !== "undefined";
 
   // get the page content from Builder
-   useEffect(() => {
+  useEffect(() => {
 
     if (isBrowser) {
         // Your code here
@@ -40,7 +40,6 @@ export default function CatchAllRoute() {
       }
     }, [isBrowser]);
 
-  }, [window.location.pathname]);
   
   // If no page is found, return 
   // a 404 page from your code.
