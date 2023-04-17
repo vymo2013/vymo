@@ -13,26 +13,33 @@ export default function CatchAllRoute() {
   const isPreviewingInBuilder = useIsPreviewing();
   const [notFound, setNotFound] = useState(false);
   const [content, setContent] = useState(null);
+  const isBrowser = typeof window !== "undefined";
 
   // get the page content from Builder
    useEffect(() => {
-    async function fetchContent() {
-      const content = await builder
-        .get("page", {
-          url: window.location.pathname
-        })
-        .promise();
 
-      setContent(content);
-      setNotFound(!content);
-
-      // if the page title is found, 
-      // set the document title
-      if (content?.data.title) {
-       document.title = content.data.title
+    if (isBrowser) {
+        // Your code here
+        async function fetchContent() {
+        const content = await builder
+            .get("page", {
+            url: window.location.pathname
+            })
+            .promise();
+    
+        setContent(content);
+        setNotFound(!content);
+    
+        // if the page title is found, 
+        // set the document title
+        if (content?.data.title) {
+            document.title = content.data.title
+        }
+        }
+        fetchContent();
       }
-    }
-    fetchContent();
+    }, [isBrowser]);
+
   }, [window.location.pathname]);
   
   // If no page is found, return 
