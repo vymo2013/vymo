@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Santonu Buragohain <santonu@getvymo.com>",
   "dependencies": {
+    "@builder.io/gatsby": "^3.0.3",
+    "@builder.io/react": "^2.1.0",
     "dotenv": "^16.0.0",
     "gatsby": "^5.8.1",
     "gatsby-link": "^5.6.0",
