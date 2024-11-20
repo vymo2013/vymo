@@ -12,7 +12,7 @@ function HeroSection() {
             <span className="font-bold">
             The Sales Engagement Platform of choice
             </span>
-            <i>for Financial Institutions. </i>
+           for Financial Institutions.
           </h1>
           <div className="pb-[48px] md:pb-[30px]">
             <DeployedSection />
