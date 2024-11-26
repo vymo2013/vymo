@@ -8,7 +8,7 @@ function HeroSection() {
     <section className="relative section-pad home-page hero-section">
       <div className="container box">
         <div className="w-full mx-auto xl:mt-6 pt-6 pb-0 md:w-4/5">
-          <h1 className="mt-2 text-32 md:text-52 hidden md:block mb-1 mx-auto text-center xl:leading-[64px] pb-4">
+          <h1 className="mt-2 text-32 md:text-52 hidden md:block mb-1 mx-auto text-center xl:leading-[64px] pb-4 motion-preset-slide-up">
             <span className="font-bold">
             The Sales Engagement Platform of choice
             </span>

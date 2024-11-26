@@ -37,27 +37,11 @@ function VymoDropDown({
           <p className="text-14 md:text-16 font-medium opacity-60 leading-7 ">
             {description}
           </p>
-          <a href={learnMore}>
-            Learn More
-            <div className="arrow-right">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M12.4283 5.47539L11.2996 6.6094L13.9158 9.21338L3.03177 9.22433L3.03338 10.8243L13.8876 10.8134L11.3155 13.3976L12.4495 14.5263L16.9644 9.99027L12.4283 5.47539Z"
-                  fill="white"
-                />
-              </svg>
-            </div>
-          </a>
         </div>
       </div>
       <div className="img-comp relative mx-auto">
-        <img src="/img/help-bg.png" alt="" className="w-[511px] h-auto z-0" />
-        <div className="absolute bottom-0">{ImageComp}</div>
+        {/* <img src="/img/help-bg.png" alt="" className="w-[511px] h-auto z-0" /> */}
+        <div className="relative">{ImageComp}</div>
       </div>
     </div>
   );

@@ -1,29 +1,42 @@
 import React, { useEffect } from 'react';
-import { useInView } from 'react-intersection-observer';
-import SectionHeading from '../../Heading/SectionHeading';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import ChallengesSlider from '../../Slider/VymoSolvesSliders';
-import Button from '../../Button/Button';
+
 function VymoSolvesSection() {
-  const { ref, inView, entry } = useInView({ triggerOnce: true });
+
+  // Initialize AOS on component mount
   useEffect(() => {
-    if (entry) entry.target.classList.add('fade-in-view');
-  }, [inView]);
+    AOS.init({
+      disable: window.innerWidth < 768, // Disable AOS on small screens (e.g., phones)
+      once: false, // Ensure animations only happen once
+    });
+    AOS.refresh();
+  }, []);
+
   return (
-    <section
-      className="section-pad relative bg-lightWhite overflow-hidden fade-in m-pad"
-      ref={ref}>
+    <section className="section-pad relative bg-lightWhite overflow-hidden m-pad">
       <div className="container">
-        <div className="text-center  mb-[41px] md:mb-6">
-          <h3 className="mb-3 md:mb-6 text-[40px] font-light text-center leading-[64px] m-font-head">
-            <span className="font-bold">What do you Want to</span><i> Solve for?</i>
+        {/* Heading Section */}
+        <div className="text-center mb-[41px] md:mb-6">
+          <h3
+            className="mb-3 md:mb-6 text-[40px] font-light text-center leading-[64px] m-font-head"
+            data-aos="fade-right" data-aos-delay="300">
+
+            <span className="font-bold">What do you Want to</span>
+            <i> Solve for?</i>
           </h3>
+          <div className="flex justify-center item-center gap-3">
+              <div className="test-b h-[200px] w-full bg-[#000]" data-aos="fade-up" data-aos-delay="400" data-aos-easing="linear"></div>
+              <div className="test-b h-[200px] w-full bg-[#000]" data-aos="fade-up" data-aos-delay="800" data-aos-easing="linear"></div>
+              <div className="test-b h-[200px] w-full bg-[#000]" data-aos="fade-up" data-aos-delay="1200" data-aos-easing="linear"></div>
+          </div>
         </div>
-        <ChallengesSlider />
-        {/* <a href="#!">
-          <Button className="red-btn align-auto mt-5 mb-4">
-            See how Vymo can help
-          </Button>
-        </a> */}
+
+        {/* Slider Section */}
+        <div data-aos="fade-up" data-aos-delay="1500" data-aos-easing="linear">
+          <ChallengesSlider />
+        </div>
       </div>
     </section>
   );

@@ -11,7 +11,7 @@ function DriveSalesSection() {
     <section className="sales-detail-section mb-6 pb-6 mt-6" ref={ref}>
       <div className="container">
         <div className="w-full lg:w-6/12 mx-auto">
-          <h3 className="mb-1 md:mb-4 font-light md:text-[40px] text-center xl:leading-[50px]">
+          <h3 className="mb-1 md:mb-4 font-light md:text-[40px] text-center xl:leading-[50px] motion motion-preset-slide-left motion-delay-[1000ms]">
             <span className="font-bold">Drive More Sales with Vymo’s</span>{' '}
             <i>Sales Engagement Platform</i>
           </h3>

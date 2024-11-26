@@ -3,95 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import SectionHeading from '../../../Heading/SectionHeading';
 import VymoDropDown from './VymoDropDown';
 import './VymoHelpSection.scss';
-// const ImageComp = (
-//   <div className="mt-2 relative p-1 md:p-3 img-comp-container">
-//     <img
-//       src="/img/help-img1.png"
-//       alt=""
-//       width="511px"
-//       height="466px"
-//       className="relative z-0"
-//     />
-//     <div className="absolute bottom-1/2 right-0 translate-y-1/2 z-[1]">
-//       <img
-//         src="/img/design-element/thumbs-up.svg"
-//         alt=""
-//         width="107px"
-//         height="60px"
-//       />
-//     </div>
-//     <div className="absolute bottom-1/2 -right-2 translate-y-full hidden lg:block">
-//       <img
-//         src="/img/design-element/help-border.svg"
-//         alt=""
-//         width="120px"
-//         height="158px"
-//       />
-//     </div>
-//     <div className="absolute w-[calc(100%-16px)] md:w-[calc(100%-48px)] p-2 bottom-[40px] md:bottom-[80px]">
-//       <div className="bg-[#F1EFEF] h-5 rounded-[10px] m-4 opacity-70"></div>
-//     </div>
-//     <div className="absolute w-[calc(100%-16px)] md:w-[calc(100%-48px)] p-2 bottom-[45px] md:bottom-[85px]">
-//       <div className="bg-[#F1EFEF] h-5 rounded-[10px] m-2 "></div>
-//     </div>
-//     <div className="absolute w-[calc(100%-16px)] md:w-[calc(100%-48px)] bottom-1 md:bottom-3 p-2 z-10">
-//       <div className="bg-white p-[10px] md:p-2 rounded-[10px]">
-//         <p className="opacity-30 text-10 md:text-12 leading-3 text-black time-stamp mb-0 md:mb-2">
-//           Mon, 13 Apr, 08:50 PM
-//         </p>
-//         <div className="flex flex-row items-center">
-//           <div className="mr-[11px] doc-icon">
-//             <img
-//               src="/img/icons/doc-help.svg"
-//               width="40px"
-//               height="40px"
-//               alt=""
-//             />
-//           </div>
-//           <div className="flex-1 ml-0 md:ml-1">
-//             <h6 className="font-medium text-12 md:text-14 leading-4 md:leading-3 mt-1">
-//               Drop in submissions from{' '}
-//               <span className="text-lightBlue md:mr-1">Acme Insurance</span>
-//               <span className="bg-primaryRed text-white rounded-full text-10 px-[6.5px] pt-[1.5px] pb-[3px] hidden md:inline-block">
-//                 21%{' '}
-//                 <svg
-//                   width="6"
-//                   height="5"
-//                   className="inline"
-//                   viewBox="0 0 6 5"
-//                   fill="none"
-//                   xmlns="http://www.w3.org/2000/svg">
-//                   <path
-//                     d="M3 4.5L0.834936 0.75L5.16506 0.75L3 4.5Z"
-//                     fill="white"
-//                   />
-//                 </svg>
-//               </span>
-//             </h6>
-//             <p className="p-drop font-medium opacity-30 text-12 m-0 inline">
-//               Submission Drop
-//             </p>
-//             <span className="bg-primaryRed text-white rounded-full text-10 px-[6.5px] pt-[1.5px] pb-[3px] inline-block md:hidden ml-1">
-//               21%{' '}
-//               <svg
-//                 width="6"
-//                 height="5"
-//                 className="inline"
-//                 viewBox="0 0 6 5"
-//                 fill="none"
-//                 xmlns="http://www.w3.org/2000/svg">
-//                 <path
-//                   d="M3 4.5L0.834936 0.75L5.16506 0.75L3 4.5Z"
-//                   fill="white"
-//                 />
-//               </svg>
-//             </span>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-// );
+
 const helpDropDown = [
   {
     id: 1,
@@ -156,8 +68,8 @@ const helpDropDown = [
       height: '88',
     },
     ImageComp: (
-      <div className="relative img-container bottom-[-50px] md:bottom-[-100px] -left-2 md:scale-110 md:left-[0px] lg:left-[7px] lg:scale-100">
-        <img src="/img/help-4.svg" alt="" />
+      <div className="relative img-container p-6 mt-6">
+        <img src="/img/help-bg2x.png" alt=""  width="100%"/>
       </div>
     ),
   },

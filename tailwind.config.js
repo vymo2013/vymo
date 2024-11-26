@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindcssMotion from 'tailwindcss-motion';
+
 module.exports = {
-  // mode: 'jit',
-  // purge: ['./src/**/*.{js,jsx,tx,tsx}', './public/index.html'],
+  mode: 'jit',
+  purge: ['./src/**/*.{js,jsx,tx,tsx}', './public/index.html'],
   content: [
     './src/pages/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
@@ -59,5 +61,5 @@ module.exports = {
       64: '64px',
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-motion')],
 };

@@ -1,18 +1,18 @@
 import * as React from 'react';
 
 import Layout from '../components/Layout';
-// import BenifitsSection from '../components/pages/Home/BenifitsSection/BenifitsSection';
-// import ContactSection from '../components/sections/ContactSection/ContactSection';
-// import GetStartedSection from '../components/sections/GetStartedSection/GetStartedSection';
+import BenifitsSection from '../components/pages/Home/BenifitsSection/BenifitsSection';
+import ContactSection from '../components/sections/ContactSection/ContactSection';
+import GetStartedSection from '../components/sections/GetStartedSection/GetStartedSection';
 import HeroSection from '../components/pages/Home/HeroSection/HeroSection';
 import BannerSection from '../components/pages/Home/BannerSection';
 import DriveSalesSection from '../components/pages/Home/DriveSalesSection';
 import VymoSolvesSection from '../components/pages/Home/VymoSolvesSection';
-// import SalesDetailsSection from '../components/pages/Home/SalesDetailsSection/SalesDetailsSection';
+import SalesDetailsSection from '../components/pages/Home/SalesDetailsSection/SalesDetailsSection';
 import TestimonialSection from '../components/pages/Home/TestimonialSection/TestimonialSection';
-// import PersonalAssistantSection from '../components/pages/Home/PersonalAssistantSection/PersonalAssistantSection';
+import PersonalAssistantSection from '../components/pages/Home/PersonalAssistantSection/PersonalAssistantSection';
 import SalesEngagementSection from '../components/sections/SalesEngagementSection/SalesEngagementSection';
-// import VymoHelpSection from '../components/pages/Home/VymoHelpSection/VymoHelpSection';
+import VymoHelpSection from '../components/pages/Home/VymoHelpSection/VymoHelpSection';
 import DeployedSection from '../components/sections/DeployedSection';
 import SEO from '../components/SEO';
 
@@ -24,14 +24,14 @@ function IndexPage() {
       <BannerSection />
       <DriveSalesSection />
       <VymoSolvesSection />
-      {/* <BenifitsSection />
+      <BenifitsSection />
       <SalesDetailsSection />
-      <ContactSection /> */}
+      <ContactSection />
       <TestimonialSection />
       <SalesEngagementSection />
-      {/*<PersonalAssistantSection />*/}
-      {/*<VymoHelpSection />*/}
-      {/* <GetStartedSection /> */}
+      <PersonalAssistantSection />
+      <VymoHelpSection />
+      <GetStartedSection />
     </Layout>
   );
 }
